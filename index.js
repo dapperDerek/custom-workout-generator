@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 // Put all API endpoints under '/api'
-app.get('/api/test', (req, res) => {
+app.get('/api/passwords', (req, res) => {
   const count = 5;
 
   // Generate some passwords
@@ -16,6 +16,7 @@ app.get('/api/test', (req, res) => {
   );
 
   // Return them as json
+  console.log(passwords)
   res.json(passwords);
 
   console.log(`Sent ${count} passwords`);
