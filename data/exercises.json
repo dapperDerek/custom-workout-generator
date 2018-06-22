@@ -1,0 +1,4522 @@
+[
+  {
+    "name": "Abdominal Crunch Alternate Heel Touches",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Crunch Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Crunch Feet Flat",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Crunch Knees Up",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Crunch Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Crunch Mini Curl Ups ‐ Cross Legged",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Crunch Mini Curl Ups ‐ Legs Up",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Crunch Toe Touches",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Crunch Toe Touches ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Curl Up Straight Legs",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Curl Up Straight Legs ‐ Rotation",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Double Crunch",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Double Crunch Rotation",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Arm Grinder 20s Efforts ‐ 40s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Deltoids",
+      "Triceps",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Arm Grinder 5s Efforts ‐ 15s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Deltoids",
+      "Triceps",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Arm Grinder 90s Efforts ‐ 30s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Deltoids",
+      "Triceps",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Back Extension",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Back Extension Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Back Extension Front Dish",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Back Extension Lying",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Back Extension Rotation",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Back Extension & Rotation Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Backward Out, In ‐ Ladder",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Backward Run Long Steps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Backward Run Small Steps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Backward Zigzag",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Backward Zigzag Turn & Run",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Band Walk Forward ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Band Walk Sideways ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Press Alternate Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Press Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Press  Close Grip",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Press  Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Press  Single Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Press Wide Grip",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Pull",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Pull Alternate Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Pull Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bench Throw Smith Machine",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bent Over Row",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bent Over Row Cable",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bent Over Row Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bent Over Row Single Arm ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bent Over Row Single Arm Rotation ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bicep Curl Alternate Arm ‐ Hammer Grip",
+    "type": "Strength",
+    "muscles": [
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bicep Curl Cable",
+    "type": "Strength",
+    "muscles": [
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bicep Curl Hammer Grip ‐ Dumbbells",
+    "type": "Strength",
+    "muscles": [
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bicep Curl Palms Down",
+    "type": "Strength",
+    "muscles": [
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bicep Curl Palms Up",
+    "type": "Strength",
+    "muscles": [
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bicep Curl Preacher",
+    "type": "Strength",
+    "muscles": [
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bicep Curl Screw",
+    "type": "Strength",
+    "muscles": [
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bike 15s Efforts ‐ 45s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bike 20s Efforts ‐ 40s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bike 30s Out of Seat ‐ 30s In Seat",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bike 5s Efforts ‐ 15s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bike 90s Efforts ‐ 30s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bike Continuous or Program",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bounding Alternate Legs",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Box Jumps Sequence",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Boxing 60s Effort ‐ 60s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Pectorals",
+      "Lats",
+      "Deltoids",
+      "Biceps",
+      "Triceps",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Boxing 30s Effort ‐ 30s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Pectorals",
+      "Lats",
+      "Deltoids",
+      "Biceps",
+      "Triceps",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Boxing 90s Effort ‐ 30s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Pectorals",
+      "Lats",
+      "Deltoids",
+      "Biceps",
+      "Triceps",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge Double Leg",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge Feet On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge Feet On Wall",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge Feet On Wall With Rotation",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge Single Leg",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge Single Leg On Box",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge Single Leg On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge Single Leg On Hands",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge ‐ Single Leg Foot On Wall",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge & Hold Alternate Leg Extensions",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Bridge & Hold Shoulders On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids",
+      "Glutes",
+      "Hamstrings",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Burpees",
+    "type": "Endurance",
+    "muscles": [
+      "Pectorals",
+      "Lats",
+      "Deltoids",
+      "Triceps",
+      "Abs",
+      "Quadriceps",
+      "Hamstrings",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Butt Kicks",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Calf Raise On Leg Press Machine",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Calf Raise Seated",
+    "type": "Strength",
+    "muscles": [
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Calf Raise Single Leg",
+    "type": "Strength",
+    "muscles": [
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Calf Raise Single Leg Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Chest Press Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Chest Press Machine",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Chest Press ‐ Adduction Single Arm ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Chest Throw Lying ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Chest Throw Seated  ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Chin Up",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Chin Up Reverse Grip",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Clean",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Clean Hang",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Clean Hang ‐ Dumbbells",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Clean Power",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Clean Pull",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Clean & Press Dumbbells ‐ Hang",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Curl & Press Alternate Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Curl & Press Dumbbells",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Deadlift",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Deadlift Single Arm & Leg ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Deadlift Stiff Leg",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Deadlift Wide Stance",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Deadlift With Rotation Single Arm & Leg ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Decline Bench Press Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Decline Bench Press  Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Depth Hops",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Depth Jumps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Diagonal Flutters Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Diagonal Raise  Cable",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Diagonal Raise  Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Diagonal Raise  Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Dips Box",
+    "type": "Strength",
+    "muscles": [
+      "Triceps",
+      "Deltoids",
+      "Pectorals"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Dips Parallel Bars",
+    "type": "Strength",
+    "muscles": [
+      "Triceps",
+      "Deltoids",
+      "Pectorals"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Elbow to Knee Crunch",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Elbow to Knee Crunch Alternate Leg Extensions",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Elbow to Knee Crunch  Alternate Side",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Elbow to Knee Crunch Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Floor Press",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Fly Flat Bench",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Triceps",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Fly Incline Bench",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Triceps",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Foot Taps",
+    "type": "Endurance",
+    "muscles": [
+      "Quadriceps",
+      "Hamstrings",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Front Raise Cable",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Front Raise Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Front Raise Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Front Raise Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Front Raise Medicine Ball ‐ Lying Over Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Front Raise Single Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Front Raise Single Arm & Leg ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Good Morning",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hanging Knee Raise",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hanging Knee Raise Roman Chair",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hanging Knee Raise Twist ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "High Knee & Ankle Harness",
+    "type": "Strength",
+    "muscles": [
+      "Calves",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "High Knee & Ankle Running Drill",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Calves",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "High Knee Lifts",
+    "type": "Strength",
+    "muscles": [
+      "Calves",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "High Knee Lifts Harness",
+    "type": "Strength",
+    "muscles": [
+      "Calves",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Abduction Kneeling",
+    "type": "Strength",
+    "muscles": [
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Abduction Standing ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Abduction Standing ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Abduction Standing ‐ Forward Flexed",
+    "type": "Strength",
+    "muscles": [
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Abduction & Extension Kneeling",
+    "type": "Strength",
+    "muscles": [
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Adduction Standing ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Adduction Standing ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Adductor Release Leg Fall Out",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Adductor"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Adductor Squeeze Knees Bent",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Adductor"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Adductor Squeeze Knees Extended",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Adductor"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Adductor Squeeze Knees Slightly Bent",
+    "type": "Strength",
+    "muscles": [
+      "Glutes",
+      "Adductor"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Kneeling",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Kneeling ‐ Bent Knee",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Lying ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Lying ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Off Bench",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Standing ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Standing ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Standing ‐ Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hip Extension Standing ‐ Forward Flexed",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hop & Throw Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hop Turns 180 Degree",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hop Turns 360 Degree",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hops Forward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Hurdle Jumps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Incline Bench Press Alternate Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Incline Bench Press Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Incline Bench Press  Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Incline Bench Press  Single Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Jerk Power",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids",
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Pectorals",
+      "Biceps",
+      "Triceps",
+      "Forearms"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Jerk Split",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids",
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Pectorals",
+      "Biceps",
+      "Triceps",
+      "Forearms"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Jump to Box",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Knee Tuck Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Kneeling Punches Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Lats",
+      "Deltoids",
+      "Biceps",
+      "Triceps",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lat Pulldown",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lat Pulldown Behind Head",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lat Pulldown Parallel Grip",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lat Pulldown Reverse Grip",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lat Pulldown Single Arm",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Hops",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Jumps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Jumps Low Body Rotations",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Lunge",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Lunge Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Raise - Cable",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Raise - Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Raise - Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Raise Side Lying",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Raise Single Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Raise Single Arm & Leg ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Split Jumps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "In, Out ‐ Ladder",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Zigzag",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Curl  Double Leg On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Curl Drop & Catch ‐ Eccentric",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Curl Hip Extension ‐ Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Hamstrings",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Curl Lying",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Curl Machine",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Curl Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Curl Seated With Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Curl Single Leg On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Curl Standing",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Press Double Leg",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Press Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Press Single Leg",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Leg Press Single Leg ‐ Lockouts",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Long Jump Standing",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Extension",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lunge Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lunge Body Weight",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lunge Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lunge Front",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lunge Overhead ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lunge Partial Range of Motion",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lunge Rotation ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Lunge Walking",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Marching High Knees",
+    "type": "Strength",
+    "muscles": [
+      "Calves",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hops - Forward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hurdle Hops Forward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hurdle Hops Forward ‐ Backward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hurdle Hops Lateral Combination",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hurdle Hops Side to Side",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hurdle Jump‐Hop Combination Lateral",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hurdle Jumps Forward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hurdle Jumps Forward ‐ Backward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hurdle Jumps Lateral Combination",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Mini Hurdle Jumps Side to Side",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Neck Extensors Push & Resist",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Neck Lateral Flexors Push & Resist",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Opposite Arm & Leg Extension Kneeling",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Opposite Arm & Leg Extension Lying",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Overhead Throw Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Overhead Throw Step ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pec Dec Machine",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids",
+      "Pectorals"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pike Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lats",
+      "Traps",
+      "Rhomboids",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Plank Feet On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Plank Heels On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Plank One Heel On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pull Up Palms Down",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pull Up Palms Up",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pulldown Straight Arm",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pullover  Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pullover  Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pullover Stability Ball ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pullover & Throw Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Pectorals",
+      "Deltoids",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pullover & Throw Standing ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Pectorals",
+      "Deltoids",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Pullover On Exercise Ball Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Press",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Box Alternate",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Box Drop",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Clap",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Feet On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Hands On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Hands On Exercise Ball ‐ Feet Elevated",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Hands On Wobble Board",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Kneeling",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Kneeling ‐ Restricted Depth",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up Medicine Ball Alternate",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up With Torso Rotation",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up & Single Arm Row Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Push Up to Side Plank",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Rebound Jumps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Reverse Crunch",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Reverse Crunch Leg Thrust",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Reverse Fly Standing ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Deltoids",
+      "Rhomboids",
+      "Pectorals",
+      "Deltoids",
+      "Triceps",
+      "Biceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Roll Out Barbell ‐ Kneeling",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Roll Out Barbell ‐ Standing",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Roll Out Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Roll Out Wheel ‐ Kneeling",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Round Arm Punches Bent Over ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Lats",
+      "Deltoids",
+      "Biceps",
+      "Triceps",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Round Arm Punches Standing ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Lats",
+      "Deltoids",
+      "Biceps",
+      "Triceps",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Rowing 15s Effort ‐ 45s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Rowing 20s Effort ‐ 40s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Rowing 500m Efforts",
+    "type": "Endurance",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Rowing 60s Effort ‐ 60s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run 100m Efforts ‐ Run Every 60s",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run 150m Effort ‐ Run Every 90s",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run 200m Efforts ‐ Run Every 1200s",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run 50m Efforts ‐ Run Every 30s",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run Alternate 100m & 200m Efforts ‐ Run Every 60s",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run Mixed Terrain",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run Treadmill",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run & Walk 100m Run ‐ 50m Walk",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run & Walk 30s Run ‐ 30s Walk",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Run & Walk 60s Run ‐ 60s Walk",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Running Trampoline",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Adduction Hand to Hip ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Extension Hand on Wall",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotation Abduction ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotation Abduction ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotation Abduction ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotation Adduction ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotation Adduction ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotation Adduction ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotation Supine ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Internal Rotation 90 Degrees Abduction ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Internal Rotation Abduction ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Internal Rotation Abduction ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Internal Rotation Abduction ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Internal Rotation Adduction ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Press Alternate Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Press Back Against Wall",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Press Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Press Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Press Lying",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Press Machine",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Press Single Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Press  Single Arm ‐ Seated ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Press Single Arm & Leg ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Rotation ‐ Abduction Dumbbell Oscillations",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Rotation ‐ Adduction Dumbbell Oscillations",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Shrugs Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Shrugs Circles",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Shrugs Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Dumbbell ‐ Drop & Catch",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Dumbbell Circles",
+    "type": "Strength",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Wall Press",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Triceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shuffle Zigzag",
+    "type": "Endurance",
+    "muscles": [
+      "Quadriceps",
+      "Hamstrings",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Side Bend Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Side Crunch Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Side Lying Dumbbell Raise",
+    "type": "Strength",
+    "muscles": [
+      "Deltoids",
+      "Traps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Side Shuffle",
+    "type": "Endurance",
+    "muscles": [
+      "Quadriceps",
+      "Hamstrings",
+      "Glutes",
+      "Calves"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Single Arm Row Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Single Arm Row Elastic Cord",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Single Arm Snatch Hang ‐ Dumbbells",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sit Up",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sit Up Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sit Up Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Skipping Jump Rope",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Snatch",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Snatch Hang",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Snatch Power",
+    "type": "Strength",
+    "muscles": [
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Snatch Pull",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Quadriceps",
+      "Glutes",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Spiderman Crawl Dynamic",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Traps",
+      "Deltoids",
+      "Rhomboids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Spilt Squat Back Foot Elevated ‐ Weight Overhead",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Jump Body Weight",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Jump Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Bench",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Body Weight",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Foot on Box ‐ Barbell or Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Gluteal Endurance",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Overhead ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Partial Range of Motion",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint 10m ‐ Falling Start",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint 10m ‐ Standing Start",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint 20m ‐ Jog Start",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint 20m ‐ Standing Start",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint 40m ‐ Jog Start",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint 40m ‐ Standing Start",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint Forward‐Backward‐Forward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint Multiple Forward‐Backward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint Multiple Out & Back",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint Single Forward‐Backward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint Stride Over Markers",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint Zigzag ‐ Narrow",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Sprint Zigzag ‐ Wide",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Barbell ‐ Front",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Barbell ‐ Wide Stance",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Body Weight",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Exercise Ball ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Hack Squat Machine",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Overhead ‐ Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Overhead ‐ Single Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Single Leg",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Single Leg ‐ Quarter Squat",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Single Leg ‐ Quarter Squat on Unstable Surface",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Single Leg ‐ Side Stance ‐ Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Single Leg ‐ Sprinter",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Sumo",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat To Box ‐ Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat ‐ Single Leg Sit Downs ‐ Eccentric",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat ‐ Single Leg Stand Ups",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Jump Body Weight",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Jump Deep Squat",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Jump Smith Machine",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Jump & Overhead Throw Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Jump & Throw Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Squat Jumps & Throw Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Star Jumps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Down Backward",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Down Forward",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up Body Weight",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up Explosive",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up Gluteal Endurance",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up Lateral",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up On Hands",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up Jumps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up Jumps Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Step Up Jumps Lateral",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back",
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Stepper 20s Effort ‐ 40s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Stepper 90s Effort ‐ 30s Rest",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Stepper Continuous",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Straight Leg Raise",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Straight Leg Raise Co‐Contraction",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Supported Row Machine",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Throw & Catch Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Throw & Catch Overhead ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Throw & Catch Single Arm ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Pectorals",
+      "Deltoids",
+      "Lats",
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Extension Kneeling Caterpillar Stretch",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Extension Lying",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Extension Off Bench",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Extension & Rotation Rotating Cobra Stretch",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Flexion & Extension Dynamic",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Back to Back Medicine Ball Pass",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Cable",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Cable ‐ High to Low",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Cable ‐ Low to High",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Corkscrew ‐ Lying",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Kneeling ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Lying ‐ Alternate Leg Extension",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Lying ‐ Bent Legs",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Lying ‐ Straight Legs",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Medicine Ball ‐ Low to High",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Medicine Ball ‐ Standing",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Split Stance Side Medicine Ball Throw",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back",
+      "Pectorals",
+      "Deltoids",
+      "Lats"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations Standing Medicine Ball Side Throws",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back",
+      "Pectorals",
+      "Deltoids",
+      "Lats"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations V‐Sit ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations On Exercise Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotations On Exercise Ball Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Extension Kickbacks",
+    "type": "Strength",
+    "muscles": [
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Extension Lying ‐ Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Extension Lying ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Extension Lying ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Extension Overhead ‐ Cable",
+    "type": "Strength",
+    "muscles": [
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Extension Overhead ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Triceps"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Extension Pushdown",
+    "type": "Strength",
+    "muscles": [
+      "Triceps",
+      "Pectorals"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Triple Jump Standing",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Tuck Jumps",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Upright Row Alternate Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Upright Row Barbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Upright Row Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Upright Row Single Arm ‐ Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Rhomboids",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "V‐Grid Sprint",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "V‐Grid Sprint Forward ‐ Backward",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "V‐Sit",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "V‐Sit Alternate ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "V‐Sit Opposite Arm & Leg",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "V‐Sit Scissors",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "V‐Sit Supported ‐ Leg Press",
+    "type": "Strength",
+    "muscles": [
+      "Abs"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "V‐Sit & Hold Seated Throws ‐ Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Pectorals",
+      "Deltoids",
+      "Lats"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "V‐Sit & Hold Seated Throws ‐ Overhead Medicine Ball",
+    "type": "Strength",
+    "muscles": [
+      "Abs",
+      "Pectorals",
+      "Deltoids",
+      "Lats"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Walk Continuous",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Wrist Abduction Dumbbell Hammer Curls",
+    "type": "Strength",
+    "muscles": [
+      "Forearms"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Wrist Extension Dumbbell",
+    "type": "Strength",
+    "muscles": [
+      "Forearms"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Y‐Grid Sprint",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Y‐Grid Sprint ‐ One Side",
+    "type": "Endurance",
+    "muscles": [
+      "Hamstrings",
+      "Quadriceps",
+      "Glutes",
+      "Lower Back"
+    ],
+    "equipment": []
+  }
+]

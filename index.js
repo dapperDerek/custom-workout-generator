@@ -1,5 +1,10 @@
 const express = require('express');
 const path = require('path');
+const exercises = require('./data/exercises');
+const stretches = require('./data/stretches');
+const workoutSplits = require('./data/workout-splits');
+
+
 
 const app = express();
 
@@ -16,11 +21,28 @@ app.get('/api/passwords', (req, res) => {
   );
 
   // Return them as json
-  console.log(passwords)
+  console.log(passwords);
   res.json(passwords);
 
   console.log(`Sent ${count} passwords`);
 });
+
+
+app.get('/api/exercises', (req, res) => {
+  console.log(exercises);
+  res.json(exercises);
+});
+
+
+app.get('/api/stretches', (req, res) => {
+  res.json(stretches);
+});
+
+
+app.get('/api/workout-splits', (req, res) => {
+  res.json(workoutSplits);
+});
+
 
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.

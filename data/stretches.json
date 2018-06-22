@@ -1,0 +1,2534 @@
+[
+  {
+    "name": "Abdominal Brace Alternate Leg Extensions",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Alternate Leg Extensions ‐ Arms Overhead",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Alternate Straight Leg Raises",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Arms Overhead ‐ Lying",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Back Dish",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Double Leg Extensions",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Double Leg Lowers",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Flutter Kick ‐ Arms Overhead",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Foot Slides",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Large Leg Circles",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Leg Curls ‐ Alternate",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Leg Fall Out",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Leg Lower ‐ Figure 8",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Neutral Spine Setting",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Push Up ‐ Kneeling",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Single Leg Extension",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Single Leg Extension ‐ Knees Up",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Single Leg Lift",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Adductor Stretch Kneeling",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Adductor Stretch Lying",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Adductor Stretch Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Adductor Stretch PNF with Partner",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Adductor Stretch Seated",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Adductor Stretch Semi Kneeling",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Adductor Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Adductor Stretch Towel",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Alternate Back Slaps Dynamic Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Ankle Dorsi Flexion Elastic Cord",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Ankle Dorsi Flexion Standing",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Ankle Plantar Flexion Swimmers Ankle Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Ankle Plantar Flexion ‐ Knee Bent Elastic Cord",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Ankle Plantar Flexion ‐ Knee Straight Elastic Cord",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Ankle Eversion Elastic Cord",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Ankle Inversion Elastic Cord",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Ankle Mobility Circles",
+    "type": "",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Anterior Shin Stretch Kneeling",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Arabesque Position Hold",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Arabesque Single Leg Quarter Squats",
+    "type": "",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Arabesque Torso Rotations",
+    "type": "",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Arabesque Touchdowns",
+    "type": "",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Arabesque Position Hold",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Calf & Hamstring ‐ Neural Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Calf Stretch Point",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Calf Stretch Forward lunge",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Calf Stretch Lunge",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Calf Stretch Lunge to Wall",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Calf Stretch Lunge to Wall ‐ Bent Knee",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Calf Stretch Toes On Wall",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Calf Stretch Toes On Wall ‐ Knee Bent",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Cobra Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Downward Dog",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Downward Dog Single Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Foot ‐ Massage Golf Ball",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Foot ‐ Towel Scrunch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Foot Evertor Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Foot Stretch Kneeling",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute & Low Back Stretch Lying",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute & Low Back Stretch Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Lying ‐ Legs Crossed",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch PNF with Partner",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Seated",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Seated ‐ Legs Crossed",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Seated ‐ Overhead",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Seated",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Seated Hug",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Seated With Rotation",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Standing ‐ Bench",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Glute Stretch Thigh Hug",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Bent Leg ‐ Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Bent Leg ‐ PNF with Partner",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Bent Leg ‐ Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Exercise Ball",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Inch Walk",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Inverted 'V'",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Kneeling Lunge",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Lying",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Lying ‐ Neural",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Lying ‐ Towel",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Seated",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Seated ‐ Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Standing",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Straight Leg ‐ Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Straight Leg ‐ PNF with Partner",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hamstring Stretch Straight Leg ‐ Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hand & Finger Ball Squeeze",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hand & Finger Towel Twist",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Capsule Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Circles",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip External Rotator Stretch Lying ‐ Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip External Rotator Stretch Lying ‐ PNF with Partner",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip External Rotator Stretch Seated",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexion Kneeling",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexion Lying ‐ Elastic Cord",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexion Standing ‐ Cable",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexion Standing ‐ Elastic Cord",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexion Straight Leg ‐ Standing ‐ Elastic Cord",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor ‐ Quadriceps Stretch Bench",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor ‐ Quadriceps Stretch Exercise Ball",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor ‐ Quadriceps Stretch Kneeling",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor ‐ Quadriceps Stretch Kneeling ‐ PNF",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor ‐ Quadriceps Stretch Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor ‐ Quadriceps Stretch PNF ‐ Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor ‐ Quadriceps Stretch PNF with Partner",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor ‐ Quadriceps Stretch Seated",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor ‐ Quadriceps Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor Stretch Edge of Bench",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor Stretch Exercise Ball",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor Stretch Hands on Floor",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor Stretch Kneeling",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor Stretch Lateral Flexion",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor Stretch Lying ‐ Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor Stretch Lying ‐ PNF with Partner",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor Stretch Off Bench",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexor Stretch Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Knee & Hip Flexion Standing",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Knee Mobility Assisted Flexion",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Knee Mobility Assisted Flexion ‐ Kneeling",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Knee Mobility Assisted Flexion ‐ On Chair",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Leg Rolls Feet on Floor",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Leg Rolls Feet Up",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Leg Rolls Legs Crossed",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Shuffle Dynamic Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Thigh ‐ ITB Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Thigh Stretch Side Lying",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Lateral Thigh Stretch Wall",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Latissimus Dorsi Stretch Kneeling ‐ Palms Down",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Latissimus Dorsi Stretch Kneeling ‐ Palms Up",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Latissimus Dorsi Stretch Kneeling ‐ Single Arm",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Latissimus Dorsi Stretch Kneeling ‐ Wall",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Latissimus Dorsi Stretch Stretchband or Bench",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Latissimus Dorsi Stretch Wall",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Leg Swings Front To Back",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Leg Swings Side To Side",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back & Hamstring Stretch Lying",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Back Rocks",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Back Roll",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Exercise Ball",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Lying Twist ‐ Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Push ‐ Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Seated ‐ Hand Under Knee",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Seated ‐ Legs Out",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Seated ‐ Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Standing",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Low Back Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck & Arm Stretch Neural",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck & Arm Stretch Neural ‐ Hand on Wall",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck Extensors Chin Tuck",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck Flexion Push & Resist",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck Flexors Chin Tuck",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck Flexors Chin Tuck ‐ Lying",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck Flexors Chin Tuck With Rotation",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck Stretch Forward Flexion ‐ Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck Stretch Lateral Flexion",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck Stretch Lateral Flexion ‐ Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Neck Stretch Rotation",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral & Anterior Shoulder Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral & Bicep Stretch Lying Twist",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch Arms Out ‐ Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch Arms Out ‐ PNF with Partner",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch Exercise Ball",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch Hands Behind Back",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch Lying Twist",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch PNF with Partner",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch Towel Behind",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch Towel Overhead",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Pectoral Stretch Wall",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Peroneal & Hamstring Stretch Seated",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Piriformis Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Elbows & Toes",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Forearms & One Heel",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Hands & Heels",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Hands & Heels ‐ Alternate Leg Lift",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Hands & Toes",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Hands on Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Leg to Side",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank One Arm & One Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank One Arm & Toes",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank One Hand on Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank One Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Chain Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Shoulder & Neck Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Shoulder Stretch Arm Across Body",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Shoulder Stretch Hands Behind Head",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Shoulder Stretch Hands On Shoulders",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Shoulder Stretch Overhead",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Shoulder Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Shoulder Stretch Thigh Hug",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Shoulder Stretch Torso Rotation",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Posterior Shoulder Stretch with RotatioStretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Quadriceps Stretch Lying",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Quadriceps Stretch Side Lying",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Quadriceps Stretch Standing",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Quadriceps Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction T Set",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction A Set ‐ Combined Back Extension",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction A Set ‐ Exercise Ball",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction Elastic Cord",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction T Set ‐ Exercise Ball",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction T Set ‐ Standing ‐ Elastic Cords",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction T Set with Dumbbell",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction W Set ‐ Combined Back Extension",
+    "type": "Strength",
+    "muscles": [
+      "Lower Back"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction W Set ‐ Exercise Ball",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction Y Set ‐ Exercise Ball",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Retraction & External Rotatio On Exercise Ball",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Scapular Setting 10s Holds",
+    "type": "Endurance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Seated Abdominal Brace Exercise Ball",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Seated Abdominal Brace Exercise Ball ‐ Single Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Seated Abdominal Brace Exercise Ball ‐ Single Leg ‐ Arms Overhead",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Capsule & Pectoral Stretch Doorway",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Capsule Stretch Hands on Head",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Elevation & Internal RotationStretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotation Stretch Dumbbell",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotator Stretch Abduction ‐ Partner Assisted",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotator Stretch Overhead",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotator Stretch Stretchband",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotators Stretch Hand on Hip",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder External Rotators Stretch Side Lying",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Internal Rotation Stretch Dumbbell",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Internal Rotation Stretch Hand Behind Back",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Internal Rotation Stretch Hands Behind Back",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Mobility Assisted Flexion ‐ On Hands & Knees",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Mobility Assisted Flexion with Pulley",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Mobility Cradle Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Ball on Wall ‐ Arm To Side",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Ball on Wall ‐ Back to Wall",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Ball on Wall ‐ Bent Arm",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Ball on Wall ‐ Straight Arm",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Bounce Ball on Wall",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability One Arm ‐ Stability Ball",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability One Hand on Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability One Hand on Wobble Board  ‐ Kneeling",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Wobble Board ‐ Kneeling",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Second Holds",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Side Plank Forearm & Foot",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Side Plank Hip & Knee Flexion",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Side Plank Hip Lifts",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Side Plank Hip Lifts ‐ Star Position",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Side Plank Star Position",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Arm ‐ Torso Rotation Against Wall",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Catch & Throw",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Diagonals",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Eyes Open ‐ Eyes Closed",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Foam Roller or Towel",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Foot Touchdowns",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Mini Trampoline",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Slump Stretch Alternate Leg",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Slump Stretch Knees Bent",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Slump Stretch Rotation",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Slump Stretch Straight Legs",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Snatch Balance",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Squat Single Leg ‐ Wobble Board or Foam Roller",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Squat Wobble Board or Foam Roller",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Streamline Position Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Supine Plank On Hands Single Leg ‐ Trunk Rotation",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Thoracic & Latissimus Dorsi Stretch Exercise Ball",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Thoracic Spine Mobility Exercise Ball",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Thoracic Spine Mobility Foam Roller ‐ Dynamic",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Thoracic Spine Mobility Foam Roller ‐ Static",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Thoracic Spine Mobility Rack or Towel",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Toe Extensor Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotation Stretch Barbell",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Torso Rotation Stretch Barbell ‐ Seated",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Stretch Hand On Elbow",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Stretch Hand to Hand",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Triceps Stretch Hand to Hand ‐ Lateral Flexion",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "V‐Sit & Hold Arms To The Side",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Wrist & Finger Extensor Stretch Single Side",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Wrist & Finger Flexor Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Wrist & Finger Flexor Stretch Kneeling",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Wrist & Finger Flexor Stretch Single Side",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Wrist Flexion Dumbbell Curls",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Ankle Back",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Ankle Up",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Bridge ‐ Double Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Bridge On Hands ‐ Eastern Intense Stretch I",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Camel Pose",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Cat & Dog Pose",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Cat Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Childs Pose ‐ Arms By Side",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Childs Pose ‐ Arms Extended",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Childs Pose ‐ Shoulder Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Cow Face",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Crane",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Crane ‐ With Support",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Downward Dog",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Extended Side Angle ‐ Arm Inside Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Extended Side Angle ‐ Arm Outside Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Extended Triangle",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Extended Triangle ‐ Box",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Extreme Sideways",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Finger To Foot",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Forward Bend ‐ Seated",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Forward Bend ‐ Shoulder Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Forward Bend ‐ Standing",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Forward Bend ‐ Twist",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Forward Bend ‐ Wide Stance",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Gate",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Half Moon",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Half Tortoise",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Head to Knee",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Hip Warmer",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Knee To Chest",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Lunge",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Marichi I",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Marichi II",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Morning Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Neck Rolls",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Neck Stretch ‐ Forward Flexion",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Neck Stretch ‐ Lateral Flexion",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Noose",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Pigeon I",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Pigeon II ‐ Against Wall",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Pigeon III ‐ Against Wall",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Plank ‐ Eastern Intense Stretch II",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Plow",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Rabbit",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Reclining Finger to Foot",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Revolved ‐ Half Moon",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Revolved Abdomen",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Runners",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Seated A",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Seated Shoulder Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Seated Shoulder Stretch ‐ Strap",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Seated Twist",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Shoulder Stand",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Simple Back Bend",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Squat ‐ Forward Reach",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Squat ‐ Prayer",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Squat Wide ‐ Side Stretch",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Thread the Needle",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Tree",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Upper Spine Warming",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Upward Dog",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Warrior I",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Warrior II",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Warrior II ‐ Reversed",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Yoga Warrior III",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Alternate Leg Extensions",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Alternate Leg Extensions ‐ Arms Overhead",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Alternate Straight Leg Raises",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Arms Overhead ‐ Lying",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Back Dish",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Double Leg Extensions",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Double Leg Lowers",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Flutter Kick ‐ Arms Overhead",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Foot Slides",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Large Leg Circles",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Leg Curls ‐ Alternate",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Leg Fall Out",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Leg Lower ‐ Figure 8",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Neutral Spine Setting",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Push Up ‐ Kneeling",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Single Leg Extension",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Single Leg Extension ‐ Knees Up",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Abdominal Brace Single Leg Lift",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Downward Dog",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Downward Dog Single Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Elbows & Toes",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Forearms & One Heel",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Hands & Heels",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Hands & Heels ‐ Alternate Leg Lift",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Hands & Toes",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Hands on Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank Leg to Side",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank One Arm & One Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank One Arm & Toes",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank One Hand on Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Plank One Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Seated Abdominal Brace Exercise Ball",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Seated Abdominal Brace Exercise Ball ‐ Single Leg",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Seated Abdominal Brace Exercise Ball ‐ Single Leg ‐ Arms Overhead",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Ball on Wall ‐ Arm To Side",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Ball on Wall ‐ Back to Wall",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Ball on Wall ‐ Bent Arm",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Ball on Wall ‐ Straight Arm",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Bounce Ball on Wall",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability One Arm ‐ Stability Ball",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability One Hand on Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability One Hand on Wobble Board  ‐ Kneeling",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Stability Wobble Board ‐ Kneeling",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Second Holds",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Side Plank Forearm & Foot",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Side Plank Hip Lifts",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Side Plank Hip Lifts ‐ Star Position",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Side Plank Star Position",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Catch & Throw",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Diagonals",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Eyes Open ‐ Eyes Closed",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Foot Touchdowns",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Mini Trampoline",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Single Leg Balance Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Snatch Balance",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Split Squat Wobble Board",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Supine Plank On Hands Single Leg ‐ Trunk Rotation",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "V‐Sit & Hold Arms To The Side",
+    "type": "Balance",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Knee Mobility Active Flexion & Extension",
+    "type": "Flexibility",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Mobility Assisted Abduction with Pulley",
+    "type": "Flexibility",
+    "muscles": [
+      "Lats",
+      "Biceps",
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Mobility Circular Swings",
+    "type": "Flexibility",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Mobility External Rotation ‐ Abduction",
+    "type": "Flexibility",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Mobility External Rotation ‐ Adduction",
+    "type": "Flexibility",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Mobility Fingers Up The Wall",
+    "type": "Flexibility",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Shoulder Mobility Pendulum Swings",
+    "type": "Flexibility",
+    "muscles": [
+      "Traps",
+      "Deltoids"
+    ],
+    "equipment": []
+  },
+  {
+    "name": "Knee Extension Ankle Supported ‐ Seated",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Knee Extension Knee Supported",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Knee Extension Machine",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Knee Extension Thigh Supported ‐ Seated",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Knee Extension Stretch Ankle Supported ‐ Passive",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Hip Flexion & Knee Extension Straight Leg ‐ Standing ‐ Elastic Cord",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Triple Extension Against Wall",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Triple Extension Leg Drop",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  },
+  {
+    "name": "Triple Extension Manual Resistance",
+    "type": "Strength",
+    "muscles": [],
+    "equipment": []
+  }
+]
