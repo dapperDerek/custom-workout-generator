@@ -32,13 +32,15 @@ module.exports = function (userProfile) {
   //     "reps": 2
   // }
 
+  console.log(userProfile);
+
   let customWorkout = {};
   let setRepRange = getSetRepRange(userProfile.fitnessGoal);
   let userSplit = sample(
     workoutSplits[userProfile.splitFrequency]
   );
 
-  
+  customWorkout.splitType = userSplit.type;
   forEach(userSplit.schedule, (value, key) => {
     customWorkout[key] = [];
 

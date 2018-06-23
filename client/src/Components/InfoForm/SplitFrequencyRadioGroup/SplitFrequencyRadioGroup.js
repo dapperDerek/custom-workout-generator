@@ -21,7 +21,7 @@ const styles = theme => ({
 
 class SplitFrequencyRadioGroup extends React.Component {
   state = {
-    splitFrequency: 'three day',
+    splitFrequency: 'three day'
   };
 
   handleChange = event => {

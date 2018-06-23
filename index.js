@@ -1,4 +1,5 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const path = require('path');
 const buildCustomWorkout = require('./services/build-custom-workout');
 const stretches = require('./data/stretches');
@@ -9,10 +10,14 @@ const app = express();
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'client/build')));
 
+// Configure body-parser for Express
+app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.json());
+
 // Put all API endpoints under '/api'
-app.get('/api/build-custom-workout', (req, res) => {
-  buildCustomWorkout(req);
-  res.json(exercises);
+app.post('/api/build-custom-workout', (req, res) => {
+  let customWorkout = buildCustomWorkout(req.body);
+  res.json(customWorkout);
 });
 
 app.get('/api/stretches', (req, res) => {

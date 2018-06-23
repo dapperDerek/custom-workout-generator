@@ -1,4 +1,5 @@
 const flatMap = require('lodash/flatMap');
+const findFactors = require('../helpers/findFactors');
 
 module.exports = function (fitnessGoal) {
   const fitnessGoals = {
@@ -13,27 +14,6 @@ module.exports = function (fitnessGoal) {
 
   for (i; i <= j; i++) {
     setRepRanges[i] = findFactors(i);
-  }
-
-  function findFactors(num) {
-    let half = Math.floor(num / 2);
-    let solution = [];
-    let o;
-    let i;
-    let j;
-
-    num % 2 === 0 ? (i = 2, j = 1) : (i = 3, j = 2);
-
-    for (i; i <= half; i += j) {
-      if (num % i === 0) {
-        o = {};
-        o.sets = i;
-        o.reps = num / i;
-
-        solution.push(o);
-      }
-    }
-    return solution;
   }
 
   return flatMap(setRepRanges);

@@ -22,10 +22,9 @@ class InfoForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      fireRedirect: false,
-      fitnessLevel: '',
-      fitnessGoal: '',
-      splitFrequency: ''
+      fitnessLevel: 'intermediate',
+      fitnessGoal: 'muscle',
+      splitFrequency: 'three day'
     };
     this.fitnessLevelHandler = this.fitnessLevelHandler.bind(this);
     this.fitnessGoalHandler = this.fitnessGoalHandler.bind(this);
@@ -51,20 +50,27 @@ class InfoForm extends Component {
     });
   }
 
-  handleSubmit(event) {
+  handleSubmit = (event) => {
     event.preventDefault();
-    this.getCustomWorkout();
-  }
-
-  getCustomWorkout() {
-    fetch('/api/build-custom-workout', this.state)
+    fetch('/api/build-custom-workout', {
+      method: 'post',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      //serialize your JSON body
+      body: JSON.stringify({
+        fitnessLevel: this.state.fitnessLevel,
+        fitnessGoal: this.state.fitnessGoal,
+        splitFrequency: this.state.splitFrequency
+      })
+    })
       .then(res => console.log(res.json()))
-  }
+  };
 
 
   render() {
     const {classes} = this.props;
-    const fireRedirect = this.state.fireRedirect;
 
     return (
       <form onSubmit={this.handleSubmit}>
