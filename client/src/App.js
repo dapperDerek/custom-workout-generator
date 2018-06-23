@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import routes from './routes.js';
+import Main from './Components/Main/Main';
 
 class App extends Component {
 
   render() {
     return (
       <div className="App">
-        {routes}
+        <Main />
       </div>
     );
   }

@@ -20,15 +20,6 @@ app.post('/api/build-custom-workout', (req, res) => {
   res.json(customWorkout);
 });
 
-app.get('/api/stretches', (req, res) => {
-  res.json(stretches);
-});
-
-
-app.get('/api/workout-splits', (req, res) => {
-  res.json(workoutSplits);
-});
-
 
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.

@@ -19,9 +19,9 @@ module.exports = function (oneRepMax, fitnessGoal, fitnessLevel) {
       advanced: .675
     },
     muscle: {
-      beginner: .775,
-      intermediate: .80,
-      advanced: .825
+      beginner: .75,
+      intermediate: .775,
+      advanced: .8
     }
   };
   return oneRepMax * fitnessGoals[fitnessGoal][fitnessLevel];

@@ -40,7 +40,6 @@ module.exports = function (userProfile) {
     workoutSplits[userProfile.splitFrequency]
   );
 
-  customWorkout.splitType = userSplit.type;
   forEach(userSplit.schedule, (value, key) => {
     customWorkout[key] = [];
 

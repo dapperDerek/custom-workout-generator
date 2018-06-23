@@ -6,6 +6,7 @@ import SplitFrequencyRadioGroup from './SplitFrequencyRadioGroup/SplitFrequencyR
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import {Redirect} from 'react-router-dom'
 
 
 const styles = theme => ({
@@ -22,9 +23,11 @@ class InfoForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      toCustomWorkout: false,
       fitnessLevel: 'intermediate',
       fitnessGoal: 'muscle',
-      splitFrequency: 'three day'
+      splitFrequency: 'three day',
+      workout: {}
     };
     this.fitnessLevelHandler = this.fitnessLevelHandler.bind(this);
     this.fitnessGoalHandler = this.fitnessGoalHandler.bind(this);
@@ -65,12 +68,27 @@ class InfoForm extends Component {
         splitFrequency: this.state.splitFrequency
       })
     })
-      .then(res => console.log(res.json()))
+      .then(res => { return res.json() })
+      .then(data => {
+        this.setState(() => ({
+          workout: data,
+          toCustomWorkout: true
+        }));
+        this.handleWorkout(event)
+      });
+  };
+
+  handleWorkout = () => {
+    this.props.action(this.state.workout);
   };
 
 
   render() {
     const {classes} = this.props;
+
+    if (this.state.toCustomWorkout === true) {
+      return <Redirect to='/custom-workout'/>
+    }
 
     return (
       <form onSubmit={this.handleSubmit}>
