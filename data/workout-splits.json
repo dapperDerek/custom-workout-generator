@@ -1,5 +1,5 @@
 {
-  "One Day": [
+ "one day": [
     {
       "type": "Total",
       "schedule": {
@@ -19,7 +19,7 @@
       }
     }
   ],
-  "Two Day": [
+  "two day": [
     {
       "type": "Upper/Lower",
       "schedule": {
@@ -99,7 +99,7 @@
       }
     }
   ],
-  "Three Day": [
+  "three day": [
     {
       "type": "Push/Pull/Legs",
       "schedule": {
@@ -199,7 +199,7 @@
       }
     }
   ],
-  "Four Day": [
+  "four day": [
     {
       "type": "Push/Pull/Legs/Shoulders",
       "schedule": {
@@ -306,7 +306,7 @@
       }
     }
   ],
-  "Five Day": [
+  "five day": [
     {
       "type": "Chest/Back/Shoulders/Legs/Arms",
       "schedule": {

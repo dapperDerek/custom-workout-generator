@@ -1,10 +1,8 @@
 const express = require('express');
 const path = require('path');
-const exercises = require('./data/exercises');
+const buildCustomWorkout = require('./services/build-custom-workout');
 const stretches = require('./data/stretches');
 const workoutSplits = require('./data/workout-splits');
-
-
 
 const app = express();
 
@@ -12,27 +10,10 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 // Put all API endpoints under '/api'
-app.get('/api/passwords', (req, res) => {
-  const count = 5;
-
-  // Generate some passwords
-  const passwords = Array.from(Array(count).keys()).map(i =>
-    Math.floor((Math.random() * 10000000) + 1)
-  );
-
-  // Return them as json
-  console.log(passwords);
-  res.json(passwords);
-
-  console.log(`Sent ${count} passwords`);
-});
-
-
-app.get('/api/exercises', (req, res) => {
-  console.log(exercises);
+app.get('/api/build-custom-workout', (req, res) => {
+  buildCustomWorkout(req);
   res.json(exercises);
 });
-
 
 app.get('/api/stretches', (req, res) => {
   res.json(stretches);
