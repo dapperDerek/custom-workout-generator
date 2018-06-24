@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import './InfoForm.css'
-import FitnessGoalRadioGroup from './FitnessGoalRadioGroup/FitnessGoalRadioGroup'
-import FitnessLevelRadioGroup from './FitnessLevelRadioGroup/FitnessLevelRadioGroup'
-import SplitFrequencyRadioGroup from './SplitFrequencyRadioGroup/SplitFrequencyRadioGroup'
+import FitnessGoalRadioGroup from '../FitnessGoalRadioGroup/FitnessGoalRadioGroup'
+import FitnessLevelRadioGroup from '../FitnessLevelRadioGroup/FitnessLevelRadioGroup'
+import SplitFrequencyRadioGroup from '../SplitFrequencyRadioGroup/SplitFrequencyRadioGroup'
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import {Redirect} from 'react-router-dom'
+import Redirect from 'react-router-dom/Redirect'
 
 
 const styles = theme => ({
@@ -98,7 +98,7 @@ class InfoForm extends Component {
         <SplitFrequencyRadioGroup action={this.splitFrequencyHandler}/>
 
         <Button type="submit" value="Submit" variant="contained" color="primary" className={classes.button}>
-          Get your custom workout!
+          Get your custom workout
         </Button>
       </form>
     );

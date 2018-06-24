@@ -6,22 +6,31 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import isEmpty from 'lodash/isEmpty'
-import Exercise from './Exercise/Exercise'
+import Exercise from '../Exercise/Exercise'
+import Link from 'react-router-dom/Link';
+import Button from '@material-ui/core/Button';
 
 
 const styles = theme => ({
   root: theme.mixins.gutters({
     paddingTop: 16,
     paddingBottom: 16,
-    marginTop: theme.spacing.unit * 3
+    margin: theme.spacing.unit * 3,
   }),
-  paper: {
-    height: 140,
-    width: 100
-  },
   control: {
     padding: theme.spacing.unit * 2
   },
+  paper: {
+    padding: theme.spacing.unit * 2,
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+    backgroundColor: '#fafafa',
+    borderRadius: 0,
+    border: '1px solid #e1e1e1'
+  },
+  workoutDay: {
+    marginBottom: 16
+  }
 });
 
 class CustomWorkout extends Component {
@@ -32,43 +41,57 @@ class CustomWorkout extends Component {
     const {classes} = this.props;
     const workout = this.props.workout;
 
+
     const exerciseGroups = Object.keys(workout).map((key, keyInd) => {
       return (
-        <Grid container className={classes.root} spacing={16}>
-          <Grid item xs={12} key={key}>
-            Day { keyInd + 1}
+        <Grid item xs key={key}>
+          <Typography variant="title" component="h3" className={classes.workoutDay}>
+            DAY {keyInd + 1}
+          </Typography>
+          <Paper className={classes.paper} elevation={0}>
             {workout[key].map((exercise) => {
               return <Exercise name={exercise.name} sets={exercise.sets} reps={exercise.reps}/>
             })}
-          </Grid>
+          </Paper>
         </Grid>
       )
     });
 
 
     return (
-      <Grid container className={classes.root} spacing={24}>
+      <div className={classes.root}>
         {!isEmpty(this.props.workout) ? (
-          <Grid item xs={12}>
-            <Grid container className={classes.demo} justify="center" spacing={24}>
+          <div>
+            <Grid container spacing={24}>
               {exerciseGroups}
             </Grid>
-          </Grid>
+            <Link to={'/'}>
+              <Button type="submit" value="Submit" variant="contained" color="primary" className={classes.button}>
+                Get another custom workout
+              </Button>
+            </Link>
+          </div>
         ) : (
-          <Grid item xs={12}>
-            <Grid container className={classes.demo} justify="center" spacing={24}>
-              <Paper className={classes.root} elevation={4}>
+          <Grid container spacing={24}>
+            <Grid container justify="center" spacing={24}>
+              <Paper className={classes.paper} elevation={2}>
                 <Typography variant="headline" component="h3">
                   Uh-Oh!
                 </Typography>
                 <Typography component="p">
                   It looks like we don't have a workout generated for you yet.
                 </Typography>
+
+                <Link to={'/'}>
+                  <Button type="submit" value="Submit" variant="contained" color="primary" className={classes.button}>
+                    Get your custom workout
+                  </Button>
+                </Link>
               </Paper>
             </Grid>
           </Grid>
         )}
-      </Grid>
+      </div>
     );
   }
 }
