@@ -20,13 +20,9 @@ const styles = theme => ({
 });
 
 class SplitFrequencyRadioGroup extends React.Component {
-  state = {
-    splitFrequency: 'three day'
-  };
 
   handleChange = event => {
-    this.setState({splitFrequency: event.target.value});
-    this.props.action(event.target.value);
+    this.props.onUpdateSplitFrequency(event.target.value);
   };
 
   render() {
@@ -40,7 +36,7 @@ class SplitFrequencyRadioGroup extends React.Component {
             aria-label="split-frequency"
             name="split-frequency"
             className={classes.group}
-            value={this.state.splitFrequency}
+            value={this.props.splitFrequency}
             onChange={this.handleChange}
           >
             <FormControlLabel value="one day" control={<Radio/>} label="1 day"/>

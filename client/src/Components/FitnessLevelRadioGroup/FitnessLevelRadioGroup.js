@@ -20,13 +20,9 @@ const styles = theme => ({
 });
 
 class FitnessLevelRadioGroup extends React.Component {
-  state = {
-    fitnessLevel: 'intermediate'
-  };
 
   handleChange = event => {
-    this.setState({fitnessLevel: event.target.value});
-    this.props.action(event.target.value);
+    this.props.onUpdateFitnessLevel(event.target.value);
   };
 
   render() {
@@ -40,7 +36,7 @@ class FitnessLevelRadioGroup extends React.Component {
             aria-label="fitness-level"
             name="fitness-level"
             className={classes.group}
-            value={this.state.fitnessLevel}
+            value={this.props.fitnessLevel}
             onChange={this.handleChange}
           >
             <FormControlLabel value="beginner" control={<Radio/>} label="Beginner"/>

@@ -29,13 +29,9 @@ export default class Main extends Component {
 
     return (
       <Switch>
-        <Route exact path="/" render={(props) => {
-          return <InfoForm {...props} action={this.workoutHandler}/>
-        }}/>
+        <Route exact path="/" component={InfoForm}/>
         {/*<Route path="/premium" component={InfoFormPremium} />*/}
-        <Route exact path="/custom-workout" render={(props) => {
-          return <CustomWorkout {...props} workout={this.state.workout}/>
-        }}/>
+        <Route exact path="/custom-workout" component={CustomWorkout}/>
         {/*<Route path="/custom-workout-premium" component={CustomWorkoutPremium} />*/}
       </Switch>
     )

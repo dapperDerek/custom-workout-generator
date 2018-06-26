@@ -16,7 +16,8 @@ app.use(bodyParser.json());
 
 // Put all API endpoints under '/api'
 app.post('/api/build-custom-workout', (req, res) => {
-  let customWorkout = buildCustomWorkout(req.body);
+  console.log(req, req.body.user);
+  let customWorkout = buildCustomWorkout(req.body.user);
   res.json(customWorkout);
 });
 

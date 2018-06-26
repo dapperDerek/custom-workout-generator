@@ -7,6 +7,10 @@ import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Redirect from 'react-router-dom/Redirect'
+import {connect} from "react-redux";
+import {updateFitnessGoal, updateFitnessLevel, updateSplitFrequency, updateWeight} from "../../actions/user-actions";
+import {updateWorkout} from "../../actions/workout-actions";
+import bindActionCreators from 'redux/src/bindActionCreators'
 
 
 const styles = theme => ({
@@ -23,34 +27,31 @@ class InfoForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      toCustomWorkout: false,
-      fitnessLevel: 'intermediate',
-      fitnessGoal: 'muscle',
-      splitFrequency: 'three day',
-      workout: {}
+      toCustomWorkout: false
     };
-    this.fitnessLevelHandler = this.fitnessLevelHandler.bind(this);
-    this.fitnessGoalHandler = this.fitnessGoalHandler.bind(this);
-    this.splitFrequencyHandler = this.splitFrequencyHandler.bind(this);
+
+    this.onUpdateFitnessLevel = this.onUpdateFitnessLevel.bind(this);
+    this.onUpdateFitnessGoal = this.onUpdateFitnessGoal.bind(this);
+    this.onUpdateSplitFrequency = this.onUpdateSplitFrequency.bind(this);
+    this.onUpdateWorkout = this.onUpdateWorkout.bind(this);
   }
 
-  // This method will be sent to the child component
-  fitnessLevelHandler(fitnessLevel) {
-    this.setState({
-      fitnessLevel: fitnessLevel
-    });
+
+  // These methods will be sent to the child component
+  onUpdateFitnessLevel(fitnessLevel) {
+    this.props.onUpdateFitnessLevel(fitnessLevel);
   }
 
-  fitnessGoalHandler(fitnessGoal) {
-    this.setState({
-      fitnessGoal: fitnessGoal
-    });
+  onUpdateFitnessGoal(fitnessGoal) {
+    this.props.onUpdateFitnessGoal(fitnessGoal);
   }
 
-  splitFrequencyHandler(splitFrequency) {
-    this.setState({
-      splitFrequency: splitFrequency
-    });
+  onUpdateSplitFrequency(splitFrequency) {
+    this.props.onUpdateSplitFrequency(splitFrequency);
+  }
+
+  onUpdateWorkout(workout) {
+    this.props.onUpdateWorkout(workout);
   }
 
   handleSubmit = (event) => {
@@ -63,9 +64,7 @@ class InfoForm extends Component {
       },
       //serialize your JSON body
       body: JSON.stringify({
-        fitnessLevel: this.state.fitnessLevel,
-        fitnessGoal: this.state.fitnessGoal,
-        splitFrequency: this.state.splitFrequency
+        user: this.props.user
       })
     })
       .then(res => { return res.json() })
@@ -74,12 +73,8 @@ class InfoForm extends Component {
           workout: data,
           toCustomWorkout: true
         }));
-        this.handleWorkout(event)
+        this.onUpdateWorkout(data);
       });
-  };
-
-  handleWorkout = () => {
-    this.props.action(this.state.workout);
   };
 
 
@@ -92,10 +87,9 @@ class InfoForm extends Component {
 
     return (
       <form onSubmit={this.handleSubmit}>
-
-        <FitnessLevelRadioGroup action={this.fitnessLevelHandler}/>
-        <FitnessGoalRadioGroup action={this.fitnessGoalHandler}/>
-        <SplitFrequencyRadioGroup action={this.splitFrequencyHandler}/>
+        <FitnessLevelRadioGroup fitnessLevel={this.props.user.fitnessLevel} onUpdateFitnessLevel={this.onUpdateFitnessLevel}/>
+        <FitnessGoalRadioGroup fitnessGoal={this.props.user.fitnessGoal} onUpdateFitnessGoal={this.onUpdateFitnessGoal}/>
+        <SplitFrequencyRadioGroup splitFrequency={this.props.user.splitFrequency} onUpdateSplitFrequency={this.onUpdateSplitFrequency}/>
 
         <Button type="submit" value="Submit" variant="contained" color="primary" className={classes.button}>
           Get your custom workout
@@ -105,8 +99,24 @@ class InfoForm extends Component {
   }
 }
 
+const mapStateToProps = (state) => {
+  return {
+    user: state.user
+  }
+};
+
+const mapDispatchToProps = (dispatch, props) => {
+  return bindActionCreators({
+    onUpdateWeight: updateWeight,
+    onUpdateFitnessLevel: updateFitnessLevel,
+    onUpdateFitnessGoal: updateFitnessGoal,
+    onUpdateSplitFrequency: updateSplitFrequency,
+    onUpdateWorkout: updateWorkout
+  }, dispatch)
+};
+
 InfoForm.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(InfoForm);
+export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(InfoForm));

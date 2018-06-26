@@ -9,6 +9,9 @@ import isEmpty from 'lodash/isEmpty'
 import Exercise from '../Exercise/Exercise'
 import Link from 'react-router-dom/Link';
 import Button from '@material-ui/core/Button';
+import {connect} from "react-redux";
+import bindActionCreators from "redux/src/bindActionCreators";
+import {removeExercise, updateExercise, updateWorkout} from "../../actions/workout-actions";
 
 
 const styles = theme => ({
@@ -34,8 +37,24 @@ const styles = theme => ({
 });
 
 class CustomWorkout extends Component {
-  // Initialize state
-  state = {};
+  constructor(props) {
+    super(props);
+    this.state = {};
+
+    this.onUpdateExercise = this.onUpdateExercise.bind(this);
+    this.onRemoveExercise = this.onRemoveExercise.bind(this);
+  }
+
+
+  // These methods will be sent to the child component
+  onUpdateExercise(exercise) {
+    this.props.onUpdateExercise(exercise);
+  }
+
+  onRemoveExercise(exercise) {
+    this.props.onRemoveExercise(exercise);
+  }
+
 
   render() {
     const {classes} = this.props;
@@ -49,8 +68,8 @@ class CustomWorkout extends Component {
             DAY {keyInd + 1}
           </Typography>
           <Paper className={classes.paper} elevation={0}>
-            {workout[key].map((exercise) => {
-              return <Exercise name={exercise.name} sets={exercise.sets} reps={exercise.reps}/>
+            {workout[key].map((exercise, index) => {
+              return <Exercise key={index} {...exercise} onUpdateExercise={this.onUpdateExercise} onRemoveExercise={this.onRemoveExercise}/>
             })}
           </Paper>
         </Grid>
@@ -96,8 +115,22 @@ class CustomWorkout extends Component {
   }
 }
 
+
+const mapStateToProps = (state) => {
+  return {
+    workout: state.workout
+  }
+};
+
+const mapDispatchToProps = (dispatch, props) => {
+  return bindActionCreators({
+    onUpdateExercise: updateExercise,
+    onRemoveExercise: removeExercise
+  }, dispatch)
+};
+
 CustomWorkout.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(CustomWorkout);
+export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(CustomWorkout));

@@ -20,13 +20,9 @@ const styles = theme => ({
 });
 
 class FitnessGoalRadioGroup extends React.Component {
-  state = {
-    fitnessGoal: 'muscle',
-  };
 
   handleChange = event => {
-    this.setState({fitnessGoal: event.target.value});
-    this.props.action(event.target.value);
+    this.props.onUpdateFitnessGoal(event.target.value);
   };
 
   render() {
@@ -40,7 +36,7 @@ class FitnessGoalRadioGroup extends React.Component {
             aria-label="fitness-goal"
             name="fitness-goal"
             className={classes.group}
-            value={this.state.fitnessGoal}
+            value={this.props.fitnessGoal}
             onChange={this.handleChange}
           >
             <FormControlLabel value="muscle" control={<Radio/>} label="Build Muscle"/>
