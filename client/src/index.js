@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {BrowserRouter} from 'react-router-dom';
-import createStore from 'redux/src/createStore'
-import combineReducers from 'redux/src/combineReducers'
+import {createStore, combineReducers} from 'redux'
 import {Provider} from 'react-redux'
 
 import userReducer from './reducers/user-reducer'
