@@ -47,8 +47,9 @@ class Exercise extends React.Component {
     });
   };
 
-  handleRemoveExercise = event => {
-    this.props.onRemoveExercise(event.target.value);
+  handleRemoveExercise = (day, index) => {
+    console.log('in Exercise component',day, index);
+    this.props.onRemoveExercise(day, index);
   };
 
 
@@ -76,7 +77,7 @@ class Exercise extends React.Component {
           <IconButton aria-label="Re-roll exercise">
             <AutorenewIcon color="secondary"/>
           </IconButton>
-          <IconButton aria-label="Remove exercise">
+          <IconButton aria-label="Remove exercise" onClick={this.handleRemoveExercise.bind(null, this.props.exerciseDay, this.props.exerciseIndex)}>
             <DeleteIcon color="secondary"/>
           </IconButton>
           <IconButton

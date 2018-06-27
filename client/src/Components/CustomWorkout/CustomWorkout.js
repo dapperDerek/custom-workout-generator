@@ -51,8 +51,10 @@ class CustomWorkout extends Component {
     this.props.onUpdateExercise(exercise);
   }
 
-  onRemoveExercise(exercise) {
-    this.props.onRemoveExercise(exercise);
+  onRemoveExercise(exerciseDay, exerciseIndex) {
+    console.log('in Custom Workout component',exerciseDay, exerciseIndex);
+
+    this.props.onRemoveExercise(exerciseDay, exerciseIndex);
   }
 
 
@@ -63,13 +65,19 @@ class CustomWorkout extends Component {
 
     const exerciseGroups = Object.keys(workout).map((key, keyInd) => {
       return (
-        <Grid item xs key={key}>
+        <Grid item xs key={keyInd}>
           <Typography variant="title" component="h3" className={classes.workoutDay}>
             DAY {keyInd + 1}
           </Typography>
           <Paper className={classes.paper} elevation={0}>
             {workout[key].map((exercise, index) => {
-              return <Exercise key={index} {...exercise} onUpdateExercise={this.onUpdateExercise} onRemoveExercise={this.onRemoveExercise}/>
+              return <Exercise key={exercise + index}
+                               {...exercise}
+                               exerciseDay={key}
+                               exerciseIndex={index}
+                               onUpdateExercise={this.onUpdateExercise}
+                               onRemoveExercise={this.onRemoveExercise}
+              />
             })}
           </Paper>
         </Grid>

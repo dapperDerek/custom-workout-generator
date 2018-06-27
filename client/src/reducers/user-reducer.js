@@ -14,8 +14,6 @@ const userInitialState = {
 };
 
 export default function userReducer(state = userInitialState, {type, payload}) {
-  console.log('In UserReducer.', 'type:', type,'payload:',payload);
-
   switch (type) {
     case UPDATE_WEIGHT:
       return Object.assign({}, state, {

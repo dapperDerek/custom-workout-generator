@@ -13,11 +13,13 @@ export function updateWorkout(workout) {
   }
 }
 
-export function removeExercise(exercise) {
+export function removeExercise(exerciseDay, exerciseIndex) {
+  console.log('in action',exerciseDay, exerciseIndex);
   return {
     type: REMOVE_EXERCISE,
     payload: {
-      workout: { exercise }
+      exerciseDay,
+      exerciseIndex
     }
   }
 }
