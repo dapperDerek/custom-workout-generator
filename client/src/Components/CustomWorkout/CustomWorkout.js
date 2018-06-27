@@ -10,7 +10,7 @@ import Exercise from '../Exercise/Exercise'
 import Link from 'react-router-dom/Link';
 import Button from '@material-ui/core/Button';
 import {connect} from "react-redux";
-import bindActionCreators from "redux/src/bindActionCreators";
+import {bindActionCreators} from "redux";
 import {removeExercise, updateExercise, updateWorkout} from "../../actions/workout-actions";
 
 

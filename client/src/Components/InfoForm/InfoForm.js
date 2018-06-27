@@ -10,7 +10,7 @@ import Redirect from 'react-router-dom/Redirect'
 import {connect} from "react-redux";
 import {updateFitnessGoal, updateFitnessLevel, updateSplitFrequency, updateWeight} from "../../actions/user-actions";
 import {updateWorkout} from "../../actions/workout-actions";
-import bindActionCreators from 'redux/src/bindActionCreators'
+import {bindActionCreators} from "redux";
 
 
 const styles = theme => ({
