@@ -39,7 +39,9 @@ const styles = theme => ({
 });
 
 class Exercise extends React.Component {
-  state = {expanded: false};
+  state = {
+    expanded: false,
+  };
 
   handleExpandClick = () => {
     this.setState({
@@ -48,8 +50,28 @@ class Exercise extends React.Component {
   };
 
   handleRemoveExercise = (day, index) => {
-    console.log('in Exercise component',day, index);
-    this.props.onRemoveExercise(day, index);
+    this.props.onRemoveExercise(day, index)
+  };
+
+  handleGetNewExercise = (day, index) => {
+    console.log(this.props.muscles[0]);
+    fetch('/api/get-exercise', {
+      method: 'post',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      //serialize your JSON body
+      body: JSON.stringify({
+        muscle: this.props.muscles[0]
+      })
+    })
+      .then(res => {
+        return res.json()
+      })
+      .then(data => {
+        this.props.onGetNewExercise(day, index, data);
+      })
   };
 
 
@@ -74,10 +96,12 @@ class Exercise extends React.Component {
           <IconButton aria-label="More exercise options">
             <MoreVertIcon color="secondary"/>
           </IconButton>
-          <IconButton aria-label="Re-roll exercise">
+          <IconButton aria-label="Get new exercise">
+            {/*onClick={this.handleGetNewExercise.bind(null, this.props.exerciseDay, this.props.exerciseIndex)}>*/}
             <AutorenewIcon color="secondary"/>
           </IconButton>
-          <IconButton aria-label="Remove exercise" onClick={this.handleRemoveExercise.bind(null, this.props.exerciseDay, this.props.exerciseIndex)}>
+          <IconButton aria-label="Remove exercise"
+                      onClick={this.handleRemoveExercise.bind(null, this.props.exerciseDay, this.props.exerciseIndex)}>
             <DeleteIcon color="secondary"/>
           </IconButton>
           <IconButton
@@ -96,16 +120,16 @@ class Exercise extends React.Component {
             <Typography paragraph>
               Lorizzle fizzle dolizzle sit dizzle, consectetizzle adipiscing you son of a bizzle. Pimpin' shut the
               shizzle up velit, mah nizzle volutpizzle, suscipit quizzle, sure vizzle, arcu. Pellentesque go to hizzle
-              tortizzle. erizzle. Shizzlin dizzle izzle shizzlin dizzle dapibus boom shackalack tempus doggy. Maurizzle
-              pellentesque nibh own yo' shut the shizzle up. Sure izzle break it down. Pellentesque eleifend rhoncizzle
+              tortizzle. erizzle. Shizzlin dizzle izzle shizzlin dizzle dapibus boom shackalack tempus doggy.
+              Maurizzle
+              pellentesque nibh own yo' shut the shizzle up. Sure izzle break it down. Pellentesque eleifend
+              rhoncizzle
               da bomb. In hac sizzle doggy izzle. Donec dapibizzle. Curabitizzle tellus urna, bow wow wow sure,
               mattizzle cool, eleifend vitae, nunc. Phat suscipizzle. Integer own yo' velit shut the shizzle up its fo
               rizzle.
             </Typography>
           </CardContent>
         </Collapse>
-
-
       </Card>
     );
   }

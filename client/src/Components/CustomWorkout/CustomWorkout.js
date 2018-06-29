@@ -11,7 +11,7 @@ import Link from 'react-router-dom/Link';
 import Button from '@material-ui/core/Button';
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
-import {removeExercise, updateExercise, updateWorkout} from "../../actions/workout-actions";
+import {getNewExercise, removeExercise} from "../../actions/workout-actions";
 
 
 const styles = theme => ({
@@ -41,19 +41,17 @@ class CustomWorkout extends Component {
     super(props);
     this.state = {};
 
-    this.onUpdateExercise = this.onUpdateExercise.bind(this);
+    this.onGetNewExercise = this.onGetNewExercise.bind(this);
     this.onRemoveExercise = this.onRemoveExercise.bind(this);
   }
 
 
   // These methods will be sent to the child component
-  onUpdateExercise(exercise) {
-    this.props.onUpdateExercise(exercise);
+  onGetNewExercise(exercise) {
+    this.props.onGetNewExercise(exercise);
   }
 
   onRemoveExercise(exerciseDay, exerciseIndex) {
-    console.log('in Custom Workout component',exerciseDay, exerciseIndex);
-
     this.props.onRemoveExercise(exerciseDay, exerciseIndex);
   }
 
@@ -75,7 +73,7 @@ class CustomWorkout extends Component {
                                {...exercise}
                                exerciseDay={key}
                                exerciseIndex={index}
-                               onUpdateExercise={this.onUpdateExercise}
+                               onGetNewExercise={this.onGetNewExercise}
                                onRemoveExercise={this.onRemoveExercise}
               />
             })}
@@ -132,7 +130,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch, props) => {
   return bindActionCreators({
-    onUpdateExercise: updateExercise,
+    onGetNewExercise: getNewExercise,
     onRemoveExercise: removeExercise
   }, dispatch)
 };

@@ -1,6 +1,6 @@
 export const UPDATE_WORKOUT = 'workout:updateWorkout';
 export const REMOVE_EXERCISE = 'workout:removeExercise';
-export const UPDATE_EXERCISE = 'workout:updateExercise';
+export const GET_NEW_EXERCISE = 'workout:getNewExercise';
 
 
 
@@ -14,7 +14,6 @@ export function updateWorkout(workout) {
 }
 
 export function removeExercise(exerciseDay, exerciseIndex) {
-  console.log('in action',exerciseDay, exerciseIndex);
   return {
     type: REMOVE_EXERCISE,
     payload: {
@@ -24,11 +23,13 @@ export function removeExercise(exerciseDay, exerciseIndex) {
   }
 }
 
-export function updateExercise(exercise) {
+export function getNewExercise(exerciseDay, exerciseIndex, newExercise) {
   return {
-    type: UPDATE_EXERCISE,
+    type: GET_NEW_EXERCISE,
     payload: {
-      workout: { exercise }
+      exerciseDay,
+      exerciseIndex,
+      newExercise
     }
   }
 }
