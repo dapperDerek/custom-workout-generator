@@ -45,6 +45,9 @@ class CustomWorkout extends Component {
     this.onRemoveExercise = this.onRemoveExercise.bind(this);
   }
 
+  componentDidUpdate() {
+    window.scrollTo(0, 0)
+  }
 
   // These methods will be sent to the child component
   onGetNewExercise(exercise) {

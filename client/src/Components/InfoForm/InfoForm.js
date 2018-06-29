@@ -36,6 +36,9 @@ class InfoForm extends Component {
     this.onUpdateWorkout = this.onUpdateWorkout.bind(this);
   }
 
+  componentDidUpdate() {
+    window.scrollTo(0, 0)
+  }
 
   // These methods will be sent to the child component
   onUpdateFitnessLevel(fitnessLevel) {
