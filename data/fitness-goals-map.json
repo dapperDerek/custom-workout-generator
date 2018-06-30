@@ -1,0 +1,78 @@
+{
+  "strength": {
+    "weightRatio": {
+      "beginner": 0.875,
+      "intermediate": 0.90,
+      "advanced": 0.925
+    },
+    "setRepRange": [
+      4,
+      10
+    ],
+    "exerciseCategories": [
+      "Olympic",
+      "General"
+    ],
+    "restTime": [
+      180,
+      300
+    ]
+  },
+  "endurance": {
+    "weightRatio": {
+      "beginner": 0.675,
+      "intermediate": 0.70,
+      "advanced": 0.725
+    },
+    "setRepRange": [
+      12,
+      24
+    ],
+    "exerciseCategories": [
+      "Plyometric",
+      "General"
+    ],
+    "restTime": [
+      20,
+      60
+    ]
+  },
+  "fatloss": {
+    "weightRatio": {
+      "beginner": 0.625,
+      "intermediate": 0.65,
+      "advanced": 0.675
+    },
+    "setRepRange": [
+      18,
+      30
+    ],
+    "exerciseCategories": [
+      "Plyometric",
+      "Cardio",
+      "General"
+    ],
+    "restTime": [
+      60,
+      120
+    ]
+  },
+  "muscle": {
+    "weightRatio": {
+      "beginner": 0.75,
+      "intermediate": 0.775,
+      "advanced": 0.8
+    },
+    "setRepRange": [
+      10,
+      20
+    ],
+    "exerciseCategories": [
+      "General"
+    ],
+    "restTime": [
+      60,
+      180
+    ]
+  }
+}

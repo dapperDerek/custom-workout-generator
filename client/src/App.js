@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import Main from './Components/Main/Main';
+import Footer from './Components/Footer/Footer';
 import {MuiThemeProvider, createMuiTheme} from '@material-ui/core/styles';
 import {withTheme} from '@material-ui/core/styles'
 
@@ -56,7 +57,8 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <div className="App">
-          <Main/>
+          <Main id="main"/>
+          <Footer id="footer"/>
         </div>
       </MuiThemeProvider>
     );

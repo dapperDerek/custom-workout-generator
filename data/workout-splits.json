@@ -1,21 +1,21 @@
 {
- "one day": [
+  "one day": [
     {
       "type": "Total",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Lats",
-          "Triceps",
-          "Biceps",
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Deltoids",
-          "Traps",
-          "Calves",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 2,
+          "Lats": 2,
+          "Triceps": 1,
+          "Biceps": 1,
+          "Quadriceps": 1,
+          "Hamstrings": 1,
+          "Glutes": 1,
+          "Deltoids": 1,
+          "Traps": 1,
+          "Calves": 1,
+          "Abs": 1
+        }
       }
     }
   ],
@@ -23,79 +23,77 @@
     {
       "type": "Upper/Lower",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Lats",
-          "Triceps",
-          "Biceps",
-          "Forearms",
-          "Abs"
-        ],
-        "dayTwo": [
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Deltoids",
-          "Traps",
-          "Calves",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 2,
+          "Lats": 2,
+          "Lower Back": 1,
+          "Triceps": 2,
+          "Biceps": 2,
+          "Forearms": 1,
+          "Abs": 1
+        },
+        "dayTwo": {
+          "Quadriceps": 2,
+          "Hamstrings": 2,
+          "Glutes": 1,
+          "Deltoids": 2,
+          "Traps": 1,
+          "Calves": 1,
+          "Abs": 1
+        }
       }
     },
     {
       "type": "Push/Pull",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Deltoids",
-          "Traps",
-          "Triceps",
-          "Forearms",
-          "Abs"
-        ],
-        "dayTwo": [
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Lats",
-          "Biceps",
-          "Calves",
-          "Forearms",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 2,
+          "Deltoids": 2,
+          "Traps": 1,
+          "Triceps": 2,
+          "Forearms": 1,
+          "Abs": 1
+        },
+        "dayTwo": {
+          "Quadriceps": 2,
+          "Hamstrings": 1,
+          "Glutes": 1,
+          "Lats": 2,
+          "Biceps": 2,
+          "Calves": 1,
+          "Abs": 1
+        }
       }
     },
     {
       "type": "Total",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Lats",
-          "Triceps",
-          "Biceps",
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Deltoids",
-          "Traps",
-          "Calves",
-          "Forearms",
-          "Abs"
-        ],
-        "dayTwo": [
-          "Pectorals",
-          "Lats",
-          "Triceps",
-          "Biceps",
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Deltoids",
-          "Traps",
-          "Calves",
-          "Forearms",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 2,
+          "Lats": 2,
+          "Triceps": 1,
+          "Biceps": 1,
+          "Quadriceps": 1,
+          "Hamstrings": 1,
+          "Glutes": 1,
+          "Deltoids": 1,
+          "Traps": 1,
+          "Calves": 1,
+          "Abs": 1
+        },
+        "dayTwo": {
+          "Pectorals": 2,
+          "Lats": 2,
+          "Triceps": 1,
+          "Biceps": 1,
+          "Quadriceps": 1,
+          "Hamstrings": 1,
+          "Glutes": 1,
+          "Deltoids": 1,
+          "Traps": 1,
+          "Calves": 1,
+          "Abs": 1
+        }
       }
     }
   ],
@@ -103,99 +101,101 @@
     {
       "type": "Push/Pull/Legs",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Triceps",
-          "Deltoids",
-          "Traps",
-          "Forearms",
-          "Abs"
-        ],
-        "dayTwo": [
-          "Lats",
-          "Biceps",
-          "Forearms",
-          "Abs"
-        ],
-        "dayThree": [
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Calves",
-          "Forearms",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 3,
+          "Triceps": 2,
+          "Deltoids": 2,
+          "Forearms": 1,
+          "Abs": 1
+        },
+        "dayTwo": {
+          "Lats": 3,
+          "Lower Back": 1,
+          "Traps": 1,
+          "Biceps": 2,
+          "Forearms": 1,
+          "Abs": 1
+        },
+        "dayThree": {
+          "Quadriceps": 2,
+          "Hamstrings": 2,
+          "Glutes": 1,
+          "Calves": 1,
+          "Forearms": 1,
+          "Abs": 1
+        }
       }
     },
     {
       "type": "Push/Pull/Legs Inverted",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Biceps",
-          "Deltoids",
-          "Traps",
-          "Forearms",
-          "Abs"
-        ],
-        "dayTwo": [
-          "Lats",
-          "Triceps",
-          "Forearms",
-          "Abs"
-        ],
-        "dayThree": [
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Calves",
-          "Forearms",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 3,
+          "Biceps": 2,
+          "Deltoids": 2,
+          "Forearms": 1,
+          "Abs": 1
+        },
+        "dayTwo": {
+          "Lats": 3,
+          "Lower Back": 1,
+          "Traps": 1,
+          "Triceps": 2,
+          "Forearms": 1,
+          "Abs": 1
+        },
+        "dayThree": {
+          "Quadriceps": 2,
+          "Hamstrings": 2,
+          "Glutes": 1,
+          "Calves": 1,
+          "Forearms": 1,
+          "Abs": 1
+        }
       }
     },
     {
       "type": "Total",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Lats",
-          "Triceps",
-          "Biceps",
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Deltoids",
-          "Traps",
-          "Calves",
-          "Abs"
-        ],
-        "dayTwo": [
-          "Pectorals",
-          "Lats",
-          "Triceps",
-          "Biceps",
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Deltoids",
-          "Traps",
-          "Calves",
-          "Abs"
-        ],
-        "dayThree": [
-          "Pectorals",
-          "Lats",
-          "Triceps",
-          "Biceps",
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Deltoids",
-          "Traps",
-          "Calves",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 2,
+          "Lats": 2,
+          "Triceps": 1,
+          "Biceps": 1,
+          "Quadriceps": 1,
+          "Hamstrings": 1,
+          "Glutes": 1,
+          "Deltoids": 1,
+          "Traps": 1,
+          "Calves": 1,
+          "Abs": 1
+        },
+        "dayTwo": {
+          "Pectorals": 2,
+          "Lats": 2,
+          "Triceps": 1,
+          "Biceps": 1,
+          "Quadriceps": 1,
+          "Hamstrings": 1,
+          "Glutes": 1,
+          "Deltoids": 1,
+          "Traps": 1,
+          "Calves": 1,
+          "Abs": 1
+        },
+        "dayThree": {
+          "Pectorals": 2,
+          "Lats": 2,
+          "Triceps": 1,
+          "Biceps": 1,
+          "Quadriceps": 1,
+          "Hamstrings": 1,
+          "Glutes": 1,
+          "Deltoids": 1,
+          "Traps": 1,
+          "Calves": 1,
+          "Abs": 1
+        }
       }
     }
   ],
@@ -203,106 +203,113 @@
     {
       "type": "Push/Pull/Legs/Shoulders",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Triceps",
-          "Forearms"
-        ],
-        "dayTwo": [
-          "Lats",
-          "Biceps",
-          "Abs"
-        ],
-        "dayThree": [
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Calves",
-          "Forearms"
-        ],
-        "dayFour": [
-          "Deltoids",
-          "Traps",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 3,
+          "Triceps": 2,
+          "Forearms": 1
+        },
+        "dayTwo": {
+          "Lats": 3,
+          "Lower Back": 1,
+          "Biceps": 2,
+          "Abs": 1
+        },
+        "dayThree": {
+          "Quadriceps": 2,
+          "Hamstrings": 2,
+          "Glutes": 1,
+          "Calves": 1,
+          "Forearms": 1
+        },
+        "dayFour": {
+          "Deltoids": 3,
+          "Traps": 2,
+          "Abs": 1
+        }
       }
     },
     {
       "type": "Push/Pull/Legs/Shoulders Inverted",
       "schedule": {
-        "dayOne": [
-          "Lats",
-          "Triceps"
-        ],
-        "dayTwo": [
-          "Pectorals",
-          "Biceps"
-        ],
-        "dayThree": [
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Calves"
-        ],
-        "dayFour": [
-          "Deltoids",
-          "Traps",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 3,
+          "Biceps": 2,
+          "Forearms": 1
+        },
+        "dayTwo": {
+          "Lats": 3,
+          "Lower Back": 1,
+          "Triceps": 2,
+          "Abs": 1
+        },
+        "dayThree": {
+          "Quadriceps": 2,
+          "Hamstrings": 2,
+          "Glutes": 1,
+          "Calves": 1,
+          "Forearms": 1
+        },
+        "dayFour": {
+          "Deltoids": 3,
+          "Traps": 2,
+          "Abs": 1
+        }
       }
     },
     {
       "type": "Upper/Lower Push/Pull",
       "schedule": {
-        "dayOne": [
-          "Lats",
-          "Biceps",
-          "Abs"
-        ],
-        "dayTwo": [
-          "Pectorals",
-          "Triceps",
-          "Forearms"
-        ],
-        "dayThree": [
-          "Deltoids",
-          "Traps",
-          "Hamstrings",
-          "Glutes",
-          "Abs"
-        ],
-        "dayFour": [
-          "Quadriceps",
-          "Glutes",
-          "Forearms"
-        ]
+        "dayOne": {
+          "Lats": 3,
+          "Lower Back": 1,
+          "Biceps": 2,
+          "Abs": 1
+        },
+        "dayTwo": {
+          "Pectorals": 3,
+          "Triceps": 2,
+          "Forearms": 1
+        },
+        "dayThree": {
+          "Hamstrings": 1,
+          "Glutes": 1,
+          "Deltoids": 2,
+          "Abs": 1
+        },
+        "dayFour": {
+          "Quadriceps": 2,
+          "Glutes": 1,
+          "Traps": 1,
+          "Forearms": 1
+        }
       }
     },
     {
       "type": "Upper/Lower Push/Pull Inverted",
       "schedule": {
-        "dayOne": [
-          "Lats",
-          "Triceps",
-          "Abs"
-        ],
-        "dayTwo": [
-          "Pectorals",
-          "Biceps",
-          "Forearms"
-        ],
-        "dayThree": [
-          "Deltoids",
-          "Traps",
-          "Hamstrings",
-          "Glutes",
-          "Abs"
-        ],
-        "dayFour": [
-          "Quadriceps",
-          "Glutes",
-          "Forearms"
-        ]
+        "dayOne": {
+          "Lats": 3,
+          "Lower Back": 1,
+          "Triceps": 2,
+          "Abs": 1
+        },
+        "dayTwo": {
+          "Pectorals": 3,
+          "Biceps": 2,
+          "Forearms": 1
+        },
+        "dayThree": {
+          "Hamstrings": 1,
+          "Glutes": 1,
+          "Deltoids": 2,
+          "Abs": 1
+        },
+        "dayFour": {
+          "Quadriceps": 2,
+          "Glutes": 1,
+          "Traps": 1,
+          "Forearms": 1
+        }
       }
     }
   ],
@@ -310,60 +317,62 @@
     {
       "type": "Chest/Back/Shoulders/Legs/Arms",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Abs"
-        ],
-        "dayTwo": [
-          "Lats",
-          "Calves"
-        ],
-        "dayThree": [
-          "Deltoids",
-          "Traps",
-          "Abs"
-        ],
-        "dayFour": [
-          "Quadriceps",
-          "Hamstrings",
-          "Glutes",
-          "Calves"
-        ],
-        "dayFive": [
-          "Biceps",
-          "Triceps",
-          "Forearms",
-          "Abs"
-        ]
+        "dayOne": {
+          "Pectorals": 3,
+          "Abs": 1
+        },
+        "dayTwo": {
+          "Lats": 3,
+          "Lower Back": 1,
+          "Calves": 1
+        },
+        "dayThree": {
+          "Deltoids": 2,
+          "Traps": 1,
+          "Abs": 1
+        },
+        "dayFour": {
+          "Quadriceps": 2,
+          "Hamstrings": 2,
+          "Glutes": 1,
+          "Calves": 1
+        },
+        "dayFive": {
+          "Biceps": 2,
+          "Triceps": 2,
+          "Forearms": 1,
+          "Abs": 1
+        }
       }
     },
     {
       "type": "Upper/Lower Push/Pull/Arms",
       "schedule": {
-        "dayOne": [
-          "Pectorals",
-          "Calves"
-        ],
-        "dayTwo": [
-          "Lats",
-          "Abs"
-        ],
-        "dayThree": [
-          "Quadriceps",
-          "Glutes",
-          "Abs"
-        ],
-        "dayFour": [
-          "Deltoids",
-          "Traps",
-          "Hamstrings",
-          "Glutes"
-        ],
-        "dayFive": [
-          "Biceps",
-          "Triceps",
-          "Forearms"
-        ]
+        "dayOne": {
+          "Pectorals": 3,
+          "Calves": 1
+        },
+        "dayTwo": {
+          "Lats": 3,
+          "Lower Back": 1,
+          "Abs": 1
+        },
+        "dayThree": {
+          "Quadriceps": 2,
+          "Glutes": 1,
+          "Traps": 1,
+          "Abs": 1
+        },
+        "dayFour": {
+          "Hamstrings": 2,
+          "Glutes": 1,
+          "Deltoids": 2
+        },
+        "dayFive": {
+          "Biceps": 2,
+          "Triceps": 2,
+          "Forearms": 1
+        }
       }
     }
   ]

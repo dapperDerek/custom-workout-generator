@@ -2,9 +2,8 @@ import React, {Component} from 'react';
 import {Switch, Route} from 'react-router-dom';
 
 import InfoForm from '../InfoForm/InfoForm';
-import InfoFormPremium from '../InfoFormPremium/InfoFormPremium';
+import DisclaimerTermsOfService from '../DisclaimerTermsOfService/DisclaimerTermsOfService'
 import CustomWorkout from '../CustomWorkout/CustomWorkout';
-import CustomWorkoutPremium from '../CustomWorkoutPremium/CustomWorkoutPremium';
 
 
 export default class Main extends Component {
@@ -30,9 +29,8 @@ export default class Main extends Component {
     return (
       <Switch>
         <Route exact path="/" component={InfoForm}/>
-        {/*<Route path="/premium" component={InfoFormPremium} />*/}
         <Route exact path="/custom-workout" component={CustomWorkout}/>
-        {/*<Route path="/custom-workout-premium" component={CustomWorkoutPremium} />*/}
+        <Route exact path="/disclaimer-terms-of-service" component={DisclaimerTermsOfService}/>
       </Switch>
     )
   }

@@ -8,31 +8,22 @@ const workoutSplits = require('../data/workout-splits');
 module.exports = function (userProfile) {
   // Sample workout output:
   // {
-  //   "dayOne": [
-  //    {
-  //     "name": "Overhead Throw Medicine Ball",
-  //     "type": "Strength",
-  //     "muscles": ["Pectorals", "Deltoids", "Lats", "Abs"],
-  //     "equipment": [],
-  //     "sets": 8,
-  //     "reps": 2
-  //    }, {
-  //     "name": "Round Arm Punches Bent Over ‐ Elastic Cord",
-  //     "type": "Strength",
-  //     "muscles": ["Pectorals", "Lats", "Deltoids", "Biceps", "Triceps", "Abs"],
-  //     "equipment": [],
-  //     "sets": 3,
-  //     "reps": 4
-  //    }, {
-  //     "name": "Roll Out Exercise Ball",
-  //     "type": "Strength",
-  //     "muscles": ["Abs", "Lower Back"],
-  //     "equipment": [],
-  //     "sets": 5,
-  //     "reps": 2
+  //   dayOne: [
+  //     {
+  //       category: 'General',
+  //       equipment: [Array],
+  //       muscles: [Array],
+  //       name: 'Neck Extensors Push & Resist',
+  //       description:
+  //         'Category: Neck\nEquipment: Bodyweight\nMuscles: Pectorals, Triceps\nDescription: https://www.google.com/search?as_q=Neck+Extensors+Push+&+Resist',
+  //       sets: 9,
+  //       reps: 2
+  //     },
+  //     ...
+  //   ],
+  //   ...
   // }
 
-  console.log(userProfile);
 
   let customWorkout = {};
   let setRepRange = getSetRepRange(userProfile.fitnessGoal);
@@ -43,15 +34,17 @@ module.exports = function (userProfile) {
   forEach(userSplit.schedule, (value, key) => {
     customWorkout[key] = [];
 
-    for (let v in value) {
-      if (value.hasOwnProperty(v)) {
-        let exercise = getExercise(value[v], 'Strength');
-        let setReps = sample(setRepRange);
+    for (let muscle in value) {
+      if (value.hasOwnProperty(muscle)) {
+        for (let i = 0; i < value[muscle]; i++) {
+          let exercise = getExercise(muscle, userProfile.fitnessGoal);
+          let setReps = sample(setRepRange);
 
-        exercise.sets = setReps.sets;
-        exercise.reps = setReps.reps;
+          exercise.sets = setReps.sets;
+          exercise.reps = setReps.reps;
 
-        customWorkout[key].push(exercise);
+          customWorkout[key].push(exercise);
+        }
       }
     }
   });

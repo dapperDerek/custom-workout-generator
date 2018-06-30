@@ -1,15 +1,11 @@
 const flatMap = require('lodash/flatMap');
 const findFactors = require('../helpers/findFactors');
+const fitnessGoalsMap = require('../data/fitness-goals-map');
+
 
 module.exports = function (fitnessGoal) {
-  const fitnessGoals = {
-    strength: [4, 10],
-    endurance: [12, 24],
-    fatloss: [18, 30],
-    muscle: [10, 20],
-  };
-  let i = fitnessGoals[fitnessGoal][0];
-  let j = fitnessGoals[fitnessGoal][1];
+  let i = fitnessGoalsMap[fitnessGoal]['setRepRange'][0];
+  let j = fitnessGoalsMap[fitnessGoal]['setRepRange'][1];
   let setRepRanges = {};
 
   for (i; i <= j; i++) {

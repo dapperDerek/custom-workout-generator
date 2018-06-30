@@ -89,7 +89,7 @@ class InfoForm extends Component {
     }
 
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} align="center">
         <FitnessLevelRadioGroup fitnessLevel={this.props.user.fitnessLevel} onUpdateFitnessLevel={this.onUpdateFitnessLevel}/>
         <FitnessGoalRadioGroup fitnessGoal={this.props.user.fitnessGoal} onUpdateFitnessGoal={this.onUpdateFitnessGoal}/>
         <SplitFrequencyRadioGroup splitFrequency={this.props.user.splitFrequency} onUpdateSplitFrequency={this.onUpdateSplitFrequency}/>
