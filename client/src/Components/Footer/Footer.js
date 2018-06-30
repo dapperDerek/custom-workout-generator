@@ -7,10 +7,7 @@ import Grid from '@material-ui/core/Grid';
 
 
 const styles = theme => ({
-  footer: {
-    marginTop: theme.spacing.unit * 5,
-    marginBottom: theme.spacing.unit * 2
-  }
+
 });
 
 class Footer extends Component {
@@ -19,14 +16,16 @@ class Footer extends Component {
     const {classes} = this.props;
 
     return (
-        <Grid className={classes.footer} align="center">
-          <Typography variant="headline">
-            Copyright &copy; 2018 customworkoutgenerator.com
+      <footer align="center">
+        <Grid className={classes.footer}>
+          <Typography variant="body1">
+            <b>Copyright &copy; 2018 <Link to="/">customworkoutgenerator.com</Link></b>
           </Typography>
           <Typography variant="body1">
-            By using customworkoutgenerator.com you agree to the <Link className={classes.footer} to="/disclaimer-terms-of-service">Disclaimer and Terms of Service</Link>
+            By using customworkoutgenerator.com you agree to the <Link to="/disclaimer-terms-of-service">Disclaimer and Terms of Service</Link>
           </Typography>
         </Grid>
+      </footer>
     );
   }
 }

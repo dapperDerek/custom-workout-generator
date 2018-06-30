@@ -10,20 +10,25 @@ import Paper from '@material-ui/core/Paper';
 
 
 const styles = theme => ({
-  button: {
-    margin: theme.spacing.unit,
-  }
+  root: theme.mixins.gutters({
+    paddingTop: 16,
+    paddingBottom: 16,
+    margin: theme.spacing.unit * 3,
+  }),
 });
 
 class DisclaimerTermsOfService extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
 
   render() {
     const {classes} = this.props;
 
     return (
       <div>
-        <Grid container spacing={24}>
-            <Card>
+        <Grid className={classes.root}>
+            <Card elevation={0}>
               <CardHeader
                 align="center"
                 title="Disclaimer"
@@ -31,13 +36,12 @@ class DisclaimerTermsOfService extends Component {
               />
               <CardContent>
                 <Typography variant="body2" component="p">
-                  The information contained on customworkoutgenerator.com website (the "Service") is for general
-                  information purposes only. My Company (change this) assumes no responsibility for errors or
+                  The information contained on customworkoutgenerator.com (the "Service") is for general
+                  information purposes only. Customworkoutgenerator.com assumes no responsibility for errors or
                   omissions in the contents on the Service.
 
                   In no event shall customworkoutgenerator.com be liable for any special, direct, indirect,
-                  consequential,
-                  or incidental damages or any damages whatsoever, whether in an action of contract, negligence or
+                  consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or
                   other tort, arising out of or in connection with the use of the Service or the contents of the
                   Service.
 
@@ -51,9 +55,8 @@ class DisclaimerTermsOfService extends Component {
                 </Typography>
                 <Typography component="p">
                   Customworkoutgenerator.com may contain links to external websites that are not provided or
-                  maintained by or in any way affiliated with customworkoutgenerator.com Please note that the
-                  customworkoutgenerator.com
-                  does not guarantee the accuracy, relevance, timeliness, or completeness of
+                  maintained by or in any way affiliated with customworkoutgenerator.com Please note that
+                  customworkoutgenerator.com does not guarantee the accuracy, relevance, timeliness, or completeness of
                   any information on these external websites.
                 </Typography>
                 <br />
@@ -77,7 +80,7 @@ class DisclaimerTermsOfService extends Component {
               </CardContent>
             </Card>
 
-            <Card>
+            <Card elevation={0}>
               <CardHeader
                 align="center"
                 title="Terms of Service"
@@ -116,8 +119,7 @@ class DisclaimerTermsOfService extends Component {
                   customworkoutgenerator.com.
 
                   Customworkoutgenerator.com has no control over, and assumes no responsibility for, the content,
-                  privacy
-                  policies, or practices of any third party web sites or services. You further acknowledge and agree
+                  privacy policies, or practices of any third party web sites or services. You further acknowledge and agree
                   that customworkoutgenerator.com shall not be responsible or liable, directly or indirectly, for any
                   damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such
                   content, goods or services available on or through any such web sites or services.

@@ -14,9 +14,11 @@ import {bindActionCreators} from "redux";
 
 
 const styles = theme => ({
-  button: {
-    margin: theme.spacing.unit,
-  },
+  root: theme.mixins.gutters({
+    paddingTop: 16,
+    paddingBottom: 16,
+    margin: theme.spacing.unit * 3,
+  }),
   input: {
     display: 'none',
   },
@@ -36,7 +38,7 @@ class InfoForm extends Component {
     this.onUpdateWorkout = this.onUpdateWorkout.bind(this);
   }
 
-  componentDidUpdate() {
+  componentDidMount() {
     window.scrollTo(0, 0)
   }
 
@@ -70,7 +72,9 @@ class InfoForm extends Component {
         user: this.props.user
       })
     })
-      .then(res => { return res.json() })
+      .then(res => {
+        return res.json()
+      })
       .then(data => {
         this.setState(() => ({
           workout: data,
@@ -89,10 +93,13 @@ class InfoForm extends Component {
     }
 
     return (
-      <form onSubmit={this.handleSubmit} align="center">
-        <FitnessLevelRadioGroup fitnessLevel={this.props.user.fitnessLevel} onUpdateFitnessLevel={this.onUpdateFitnessLevel}/>
-        <FitnessGoalRadioGroup fitnessGoal={this.props.user.fitnessGoal} onUpdateFitnessGoal={this.onUpdateFitnessGoal}/>
-        <SplitFrequencyRadioGroup splitFrequency={this.props.user.splitFrequency} onUpdateSplitFrequency={this.onUpdateSplitFrequency}/>
+      <form className={classes.root} onSubmit={this.handleSubmit} align="center">
+        <FitnessLevelRadioGroup fitnessLevel={this.props.user.fitnessLevel}
+                                onUpdateFitnessLevel={this.onUpdateFitnessLevel}/>
+        <FitnessGoalRadioGroup fitnessGoal={this.props.user.fitnessGoal}
+                               onUpdateFitnessGoal={this.onUpdateFitnessGoal}/>
+        <SplitFrequencyRadioGroup splitFrequency={this.props.user.splitFrequency}
+                                  onUpdateSplitFrequency={this.onUpdateSplitFrequency}/>
 
         <Button type="submit" value="Submit" variant="contained" color="primary" className={classes.button}>
           Get your custom workout

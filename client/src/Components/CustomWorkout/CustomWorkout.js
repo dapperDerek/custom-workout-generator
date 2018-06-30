@@ -20,9 +20,6 @@ const styles = theme => ({
     paddingBottom: 16,
     margin: theme.spacing.unit * 3,
   }),
-  control: {
-    padding: theme.spacing.unit * 2
-  },
   paper: {
     padding: theme.spacing.unit * 2,
     textAlign: 'center',
@@ -45,7 +42,7 @@ class CustomWorkout extends Component {
     this.onRemoveExercise = this.onRemoveExercise.bind(this);
   }
 
-  componentDidUpdate() {
+  componentDidMount() {
     window.scrollTo(0, 0)
   }
 
@@ -87,7 +84,7 @@ class CustomWorkout extends Component {
 
 
     return (
-      <div className={classes.root}>
+      <div className={classes.root} align="center">
         {!isEmpty(this.props.workout) ? (
           <div>
             <Grid container spacing={24}>
