@@ -24,7 +24,7 @@ const theme = createMuiTheme({
   typography: {
     headline: {
       color: '#0097A7',
-      fontSize: '1.15rem'
+      fontSize: '.95rem'
     },
     title: {
       color: '#0097A7'

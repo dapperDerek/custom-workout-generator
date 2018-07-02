@@ -105,7 +105,7 @@ class CustomWorkout extends Component {
           <Grid container spacing={24}>
             <Grid container justify="center" spacing={24}>
               <Paper className={classes.paper} elevation={2}>
-                <Typography variant="headline" component="h3">
+                <Typography variant="title" component="h3">
                   Uh-Oh!
                 </Typography>
                 <Typography component="p">

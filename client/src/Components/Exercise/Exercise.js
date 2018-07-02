@@ -18,12 +18,14 @@ import CardHeader from '@material-ui/core/CardHeader';
 const styles = theme => ({
   exercise: {
     marginTop: theme.spacing.unit * 3,
+    textAlign: 'center'
+
   },
   exerciseDetails: {
     padding: 0
   },
   exerciseName: {
-    fontSize: '1.25rem'
+    fontSize: '.95rem'
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -84,11 +86,11 @@ class Exercise extends React.Component {
           className={classes.exerciseName}
         />
         <CardContent className={classes.exerciseDetails}>
-          <Typography>
-            {this.props.sets} Sets
+          <Typography variant="body2" color="textSecondary">
+            {this.props.reps} reps
           </Typography>
-          <Typography>
-            {this.props.reps} Reps
+          <Typography variant="body2" color="textSecondary">
+            {this.props.sets} sets
           </Typography>
         </CardContent>
         <CardActions className={classes.actions} disableActionSpacing>
@@ -115,8 +117,8 @@ class Exercise extends React.Component {
           </IconButton>
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
-          <CardContent>
-            <Typography align="left">
+          <CardContent align="left">
+            <Typography variant="body1" color="textSecondary">
               <b>Category:</b> {this.props.category}<br/>
               <b>Muscles:</b> {this.props.muscles.join(', ')}<br/>
               <b>Equipment:</b> {this.props.equipment.join(', ')}<br/>
