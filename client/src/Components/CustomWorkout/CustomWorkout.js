@@ -11,7 +11,7 @@ import Link from 'react-router-dom/Link';
 import Button from '@material-ui/core/Button';
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
-import {getNewExercise, removeExercise} from "../../actions/workout-actions";
+import {replaceExercise, removeExercise} from "../../actions/workout-actions";
 
 
 const styles = theme => ({
@@ -38,7 +38,7 @@ class CustomWorkout extends Component {
     super(props);
     this.state = {};
 
-    this.onGetNewExercise = this.onGetNewExercise.bind(this);
+    this.onReplaceExercise = this.onReplaceExercise.bind(this);
     this.onRemoveExercise = this.onRemoveExercise.bind(this);
   }
 
@@ -47,8 +47,8 @@ class CustomWorkout extends Component {
   }
 
   // These methods will be sent to the child component
-  onGetNewExercise(exercise) {
-    this.props.onGetNewExercise(exercise);
+  onReplaceExercise(exerciseDay, muscleGroup, exerciseIndex, exercise) {
+    this.props.onReplaceExercise(exerciseDay, muscleGroup, exerciseIndex, exercise);
   }
 
   onRemoveExercise(exerciseDay, muscleGroup, exerciseIndex) {
@@ -62,7 +62,6 @@ class CustomWorkout extends Component {
 
 
     const exerciseGroups = Object.keys(workout).map((key, keyInd) => {
-      // console.log(key, keyInd, Object.keys(workout[key]));
       return (
         <Grid item xs key={keyInd}>
           <Typography variant="title" component="h3" className={classes.workoutDay}>
@@ -77,7 +76,8 @@ class CustomWorkout extends Component {
                                    exerciseDay={key}
                                    muscleGroup={muscleGroup}
                                    exerciseIndex={index}
-                                   onGetNewExercise={this.onGetNewExercise}
+                                   fitnessGoal={this.props.fitnessGoal}
+                                   onReplaceExercise={this.onReplaceExercise}
                                    onRemoveExercise={this.onRemoveExercise}
                   />
                 })}
@@ -129,13 +129,14 @@ class CustomWorkout extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    workout: state.workout
+    workout: state.workout,
+    fitnessGoal: state.user.fitnessGoal
   }
 };
 
 const mapDispatchToProps = (dispatch, props) => {
   return bindActionCreators({
-    onGetNewExercise: getNewExercise,
+    onReplaceExercise: replaceExercise,
     onRemoveExercise: removeExercise
   }, dispatch)
 };

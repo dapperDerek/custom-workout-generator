@@ -1,7 +1,7 @@
 import {
   UPDATE_WORKOUT,
   REMOVE_EXERCISE,
-  GET_NEW_EXERCISE
+  REPLACE_EXERCISE
 } from "../actions/workout-actions";
 
 
@@ -19,10 +19,16 @@ export default function workoutReducer(state = {}, {type, payload}) {
           })
         }
       };
-    case GET_NEW_EXERCISE:
+    case REPLACE_EXERCISE:
       return {
         ...state,
-        [payload.exerciseDay]: [...state[payload.exerciseDay]][payload.exerciseIndex]
+        [payload.exerciseDay]: {
+          ...state[payload.exerciseDay],
+          [payload.muscleGroup]: {
+            ...state[payload.exerciseDay][payload.muscleGroup],
+            [payload.exerciseIndex]: payload.newExercise
+          }
+        }
       };
     default:
       return state;

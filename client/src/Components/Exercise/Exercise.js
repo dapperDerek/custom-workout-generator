@@ -49,12 +49,10 @@ class Exercise extends React.Component {
   };
 
   handleRemoveExercise = (day, muscleGroup, index) => {
-    console.log(day, muscleGroup, index);
     this.props.onRemoveExercise(day, muscleGroup, index)
   };
 
-  handleGetNewExercise = (day, index) => {
-    console.log(this.props.muscles[0]);
+  handleReplaceExercise = (day, muscleGroup, index) => {
     fetch('/api/get-exercise', {
       method: 'post',
       headers: {
@@ -63,14 +61,15 @@ class Exercise extends React.Component {
       },
       //serialize your JSON body
       body: JSON.stringify({
-        muscle: this.props.muscles[0]
+        muscle: muscleGroup,
+        fitnessGoal: this.props.fitnessGoal
       })
     })
       .then(res => {
         return res.json()
       })
       .then(data => {
-        this.props.onGetNewExercise(day, index, data);
+        this.props.onReplaceExercise(day, muscleGroup, index, data);
       })
   };
 
@@ -97,7 +96,7 @@ class Exercise extends React.Component {
             <MoreVertIcon color="secondary"/>
           </IconButton>
           <IconButton aria-label="Get new exercise"
-                      onClick={this.handleGetNewExercise.bind(null, this.props.exerciseDay, this.props.exerciseIndex)}>
+                      onClick={this.handleReplaceExercise.bind(null, this.props.exerciseDay, this.props.muscleGroup, this.props.exerciseIndex)}>
             <AutorenewIcon color="secondary"/>
           </IconButton>
           <IconButton aria-label="Remove exercise"

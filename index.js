@@ -1,9 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
+const sample = require('lodash/sample');
+
 const buildCustomWorkout = require('./services/build-custom-workout');
-const stretches = require('./data/stretches');
-const workoutSplits = require('./data/workout-splits');
+const getExercise = require('./services/get-exercise');
+const getSetRepRange = require('./services/get-set-rep-range');
+
 
 const app = express();
 
@@ -18,6 +21,16 @@ app.use(bodyParser.json());
 app.post('/api/build-custom-workout', (req, res) => {
   let customWorkout = buildCustomWorkout(req.body.user);
   res.json(customWorkout);
+});
+
+app.post('/api/get-exercise', (req, res) => {
+  let exercise = getExercise(req.body.muscle, req.body.fitnessGoal);
+  let setRepRange = getSetRepRange(req.body.fitnessGoal);
+  let setReps = sample(setRepRange);
+
+  exercise.sets = setReps.sets;
+  exercise.reps = setReps.reps;
+  res.json(exercise);
 });
 
 

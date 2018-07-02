@@ -1,6 +1,6 @@
 export const UPDATE_WORKOUT = 'workout:updateWorkout';
 export const REMOVE_EXERCISE = 'workout:removeExercise';
-export const GET_NEW_EXERCISE = 'workout:getNewExercise';
+export const REPLACE_EXERCISE = 'workout:getNewExercise';
 
 
 
@@ -24,11 +24,12 @@ export function removeExercise(exerciseDay, muscleGroup, exerciseIndex) {
   }
 }
 
-export function getNewExercise(exerciseDay, exerciseIndex, newExercise) {
+export function replaceExercise(exerciseDay, muscleGroup, exerciseIndex, newExercise) {
   return {
-    type: GET_NEW_EXERCISE,
+    type: REPLACE_EXERCISE,
     payload: {
       exerciseDay,
+      muscleGroup,
       exerciseIndex,
       newExercise
     }
