@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a11f5d7b-ea2c-4afa-9439-21c3cfea203c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/CustomWorkout/CustomWorkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/CustomWorkout/CustomWorkout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/DisclaimerTermsOfService/DisclaimerTermsOfService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/DisclaimerTermsOfService/DisclaimerTermsOfService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/InfoForm/InfoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/InfoForm/InfoForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Exercise/Exercise.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Exercise/Exercise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/workout-actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/workout-actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/workout-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/workout-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/exercises.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/exercises.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/build-custom-workout.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/build-custom-workout.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,47 +23,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <file leaf-file-name="exercises.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/exercises.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3240">
+              <caret line="216" column="39" selection-start-line="216" selection-start-column="39" selection-end-line="216" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/App.css">
+      <file leaf-file-name="Exercise.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/Components/Exercise/Exercise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfoForm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/Components/InfoForm/InfoForm.js">
+      <file leaf-file-name="workout-reducer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/reducers/workout-reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="40" selection-start-line="40" selection-end-line="42" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/Components/Footer/Footer.js">
+      <file leaf-file-name="workout-actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/workout-actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workout-splits.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/workout-splits.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-custom-workout-premium.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/build-custom-workout-premium.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-114">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -71,8 +80,8 @@
       <file leaf-file-name="CustomWorkout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Components/CustomWorkout/CustomWorkout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="35" />
+            <state relative-caret-position="1107">
+              <caret line="77" column="59" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -80,38 +89,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisclaimerTermsOfService.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/Components/DisclaimerTermsOfService/DisclaimerTermsOfService.js">
+      <file leaf-file-name="build-custom-workout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/build-custom-workout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/Components/Main/Main.js">
+      <file leaf-file-name="fitness-goals-map.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/fitness-goals-map.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/index.js">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -127,8 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Scapular</find>
-      <find>Scap</find>
       <find>Cross Tr</find>
       <find>Punch</find>
       <find>boxing</find>
@@ -157,6 +155,8 @@
       <find>My Website (change this)</find>
       <find>control</find>
       <find>root</find>
+      <find>.+https:</find>
+      <find>https:.+</find>
     </findStrings>
     <replaceStrings>
       <replace>exerciseType</replace>
@@ -171,6 +171,7 @@
       <replace>Hips</replace>
       <replace>,</replace>
       <replace>customworkoutgenerator.com</replace>
+      <replace>&quot;description&quot;: &quot;https:</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -179,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/Components/FormElements/RadioButton/RadioGroup.js" />
         <option value="$PROJECT_DIR$/client/src/Components/FormElements/RadioButton/RadioButton.js" />
         <option value="$PROJECT_DIR$/client/src/Components/InfoForm/FitnessGoalRadioGroup/FItnessGoalRadioGroup.js" />
         <option value="$PROJECT_DIR$/client/src/Components/InfoForm/FitnessLevelRadioGroup/FItnessLevelRadioGroup.js" />
@@ -205,12 +205,9 @@
         <option value="$PROJECT_DIR$/client/src/Components/FitnessGoalRadioGroup/FitnessGoalRadioGroup.js" />
         <option value="$PROJECT_DIR$/client/src/index.js" />
         <option value="$PROJECT_DIR$/client/src/reducers/user-reducer.js" />
-        <option value="$PROJECT_DIR$/client/src/actions/workout-actions.js" />
-        <option value="$PROJECT_DIR$/client/src/reducers/workout-reducer.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.json" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.es6" />
         <option value="$PROJECT_DIR$/client/public/index.html" />
-        <option value="$PROJECT_DIR$/client/src/Components/Exercise/Exercise.js" />
         <option value="$PROJECT_DIR$/data/fitness-goals.json" />
         <option value="$PROJECT_DIR$/data/new-exercises.json" />
         <option value="$PROJECT_DIR$/data/fitness-goals-mapping.json" />
@@ -221,15 +218,19 @@
         <option value="$PROJECT_DIR$/data/workout-splits.json" />
         <option value="$PROJECT_DIR$/services/get-set-rep-range.js" />
         <option value="$PROJECT_DIR$/services/get-exercise.js" />
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/services/build-custom-workout.js" />
         <option value="$PROJECT_DIR$/client/src/App.js" />
         <option value="$PROJECT_DIR$/client/src/Components/Main/Main.js" />
-        <option value="$PROJECT_DIR$/client/src/Components/CustomWorkout/CustomWorkout.js" />
         <option value="$PROJECT_DIR$/client/src/Components/InfoForm/InfoForm.js" />
         <option value="$PROJECT_DIR$/client/src/App.css" />
         <option value="$PROJECT_DIR$/client/src/Components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/client/src/Components/DisclaimerTermsOfService/DisclaimerTermsOfService.js" />
+        <option value="$PROJECT_DIR$/data/exercises.json" />
+        <option value="$PROJECT_DIR$/services/build-custom-workout.js" />
+        <option value="$PROJECT_DIR$/client/src/actions/workout-actions.js" />
+        <option value="$PROJECT_DIR$/client/src/Components/CustomWorkout/CustomWorkout.js" />
+        <option value="$PROJECT_DIR$/client/src/Components/Exercise/Exercise.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/client/src/reducers/workout-reducer.js" />
       </list>
     </option>
   </component>
@@ -244,7 +245,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="y" value="53" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -279,6 +280,13 @@
               <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,6 +296,74 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="DisclaimerTermsOfService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="FitnessGoalRadioGroup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="FitnessLevelRadioGroup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="InfoForm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="SplitFrequencyRadioGroup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-workout-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-workout-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,12 +426,12 @@
       <workItem from="1529154664274" duration="25716000" />
       <workItem from="1529461470781" duration="11993000" />
       <workItem from="1529628591779" duration="117233000" />
-      <workItem from="1530284253915" duration="18301000" />
+      <workItem from="1530284253915" duration="26962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180999000" />
+    <option name="totallyTimeSpent" value="189660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -486,13 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/workout-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -504,20 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/workout-actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/build-custom-workout-premium.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -541,16 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Components/Exercise/Exercise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="83" column="33" lean-forward="true" selection-start-line="83" selection-end-line="84" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/calc-workout-time.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -562,20 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/fitness-goals-map.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/workout-splits.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -593,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/exercises.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/get-exercise.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -611,20 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/build-custom-workout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -694,23 +704,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Components/CustomWorkout/CustomWorkout.js">
+    <entry file="file://$PROJECT_DIR$/client/src/Components/DisclaimerTermsOfService/DisclaimerTermsOfService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="86" column="35" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Components/DisclaimerTermsOfService/DisclaimerTermsOfService.js">
+    <entry file="file://$PROJECT_DIR$/data/exercises.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="3240">
+          <caret line="216" column="39" selection-start-line="216" selection-start-column="39" selection-end-line="216" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/workout-splits.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/build-custom-workout-premium.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Components/CustomWorkout/CustomWorkout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="77" column="59" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/build-custom-workout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/fitness-goals-map.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/workout-actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Components/Exercise/Exercise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/workout-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>

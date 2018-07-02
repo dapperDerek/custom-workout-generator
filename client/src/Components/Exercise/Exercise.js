@@ -17,7 +17,6 @@ import CardHeader from '@material-ui/core/CardHeader';
 
 const styles = theme => ({
   exercise: {
-    padding: theme.spacing.unit * 2,
     marginTop: theme.spacing.unit * 3,
   },
   exerciseDetails: {
@@ -49,8 +48,9 @@ class Exercise extends React.Component {
     });
   };
 
-  handleRemoveExercise = (day, index) => {
-    this.props.onRemoveExercise(day, index)
+  handleRemoveExercise = (day, muscleGroup, index) => {
+    console.log(day, muscleGroup, index);
+    this.props.onRemoveExercise(day, muscleGroup, index)
   };
 
   handleGetNewExercise = (day, index) => {
@@ -85,10 +85,10 @@ class Exercise extends React.Component {
           className={classes.exerciseName}
         />
         <CardContent className={classes.exerciseDetails}>
-          <Typography component="p">
+          <Typography>
             {this.props.sets} Sets
           </Typography>
-          <Typography component="p">
+          <Typography>
             {this.props.reps} Reps
           </Typography>
         </CardContent>
@@ -96,12 +96,12 @@ class Exercise extends React.Component {
           <IconButton aria-label="More exercise options">
             <MoreVertIcon color="secondary"/>
           </IconButton>
-          <IconButton aria-label="Get new exercise">
-            {/*onClick={this.handleGetNewExercise.bind(null, this.props.exerciseDay, this.props.exerciseIndex)}>*/}
+          <IconButton aria-label="Get new exercise"
+                      onClick={this.handleGetNewExercise.bind(null, this.props.exerciseDay, this.props.exerciseIndex)}>
             <AutorenewIcon color="secondary"/>
           </IconButton>
           <IconButton aria-label="Remove exercise"
-                      onClick={this.handleRemoveExercise.bind(null, this.props.exerciseDay, this.props.exerciseIndex)}>
+                      onClick={this.handleRemoveExercise.bind(null, this.props.exerciseDay, this.props.muscleGroup, this.props.exerciseIndex)}>
             <DeleteIcon color="secondary"/>
           </IconButton>
           <IconButton
@@ -117,16 +117,11 @@ class Exercise extends React.Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>
-              Lorizzle fizzle dolizzle sit dizzle, consectetizzle adipiscing you son of a bizzle. Pimpin' shut the
-              shizzle up velit, mah nizzle volutpizzle, suscipit quizzle, sure vizzle, arcu. Pellentesque go to hizzle
-              tortizzle. erizzle. Shizzlin dizzle izzle shizzlin dizzle dapibus boom shackalack tempus doggy.
-              Maurizzle
-              pellentesque nibh own yo' shut the shizzle up. Sure izzle break it down. Pellentesque eleifend
-              rhoncizzle
-              da bomb. In hac sizzle doggy izzle. Donec dapibizzle. Curabitizzle tellus urna, bow wow wow sure,
-              mattizzle cool, eleifend vitae, nunc. Phat suscipizzle. Integer own yo' velit shut the shizzle up its fo
-              rizzle.
+            <Typography align="left">
+              <b>Category:</b> {this.props.category}<br/>
+              <b>Muscles:</b> {this.props.muscles.join(', ')}<br/>
+              <b>Equipment:</b> {this.props.equipment.join(', ')}<br/>
+              <b>More info:</b> <a href={this.props.description} target="_blank">{this.props.description}</a>
             </Typography>
           </CardContent>
         </Collapse>

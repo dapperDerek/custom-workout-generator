@@ -32,10 +32,13 @@ module.exports = function (userProfile) {
   );
 
   forEach(userSplit.schedule, (value, key) => {
-    customWorkout[key] = [];
+    customWorkout[key] = {};
+
 
     for (let muscle in value) {
       if (value.hasOwnProperty(muscle)) {
+        customWorkout[key][muscle] = [];
+
         for (let i = 0; i < value[muscle]; i++) {
           let exercise = getExercise(muscle, userProfile.fitnessGoal);
           let setReps = sample(setRepRange);
@@ -43,7 +46,7 @@ module.exports = function (userProfile) {
           exercise.sets = setReps.sets;
           exercise.reps = setReps.reps;
 
-          customWorkout[key].push(exercise);
+          customWorkout[key][muscle].push(exercise);
         }
       }
     }

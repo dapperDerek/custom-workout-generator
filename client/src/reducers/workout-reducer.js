@@ -12,7 +12,12 @@ export default function workoutReducer(state = {}, {type, payload}) {
     case REMOVE_EXERCISE:
       return {
         ...state,
-        [payload.exerciseDay]: [...state[payload.exerciseDay]].filter((x, index) => index !== payload.exerciseIndex)
+        [payload.exerciseDay]: {
+          ...state[payload.exerciseDay],
+          [payload.muscleGroup]: [...state[payload.exerciseDay][payload.muscleGroup]].filter((x, index) => {
+            return index !== parseInt(payload.exerciseIndex)
+          })
+        }
       };
     case GET_NEW_EXERCISE:
       return {
