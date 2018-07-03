@@ -30,6 +30,9 @@ const styles = theme => ({
   },
   workoutDay: {
     marginBottom: 16
+  },
+  muscleGroup: {
+    marginTop: 24
   }
 });
 
@@ -64,12 +67,16 @@ class CustomWorkout extends Component {
     const exerciseGroups = Object.keys(workout).map((key, keyInd) => {
       return (
         <Grid item xs key={keyInd}>
-          <Typography variant="title" component="h3" className={classes.workoutDay}>
+          <Typography variant="title" component="h3" className={classes.workoutDay} align="left">
             DAY {keyInd + 1}
           </Typography>
-          <Paper className={classes.paper} elevation={0}>
+          <Paper className={classes.paper} elevation={0} style={{paddingTop: 0}}>
             {Object.keys(workout[key]).map((muscleGroup) => {
-              {return Object.keys(workout[key][muscleGroup]).map((index) => {
+              return <div>
+                <Typography variant="subheading" color="textSecondary" className={classes.muscleGroup}>
+                  {muscleGroup}
+                </Typography>
+                {Object.keys(workout[key][muscleGroup]).map((index) => {
                   let exercise = workout[key][muscleGroup][index];
                   return <Exercise key={exercise + index}
                                    {...exercise}
@@ -81,6 +88,7 @@ class CustomWorkout extends Component {
                                    onRemoveExercise={this.onRemoveExercise}
                   />
                 })}
+              </div>
             })}
           </Paper>
         </Grid>

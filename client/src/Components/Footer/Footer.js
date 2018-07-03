@@ -18,10 +18,10 @@ class Footer extends Component {
     return (
       <footer align="center">
         <Grid className={classes.footer}>
-          <Typography variant="body1">
+          <Typography variant="body1" color="textSecondary">
             <b>Copyright &copy; 2018 <Link to="/">customworkoutgenerator.com</Link></b>
           </Typography>
-          <Typography variant="body1">
+          <Typography variant="body1" color="textSecondary">
             By using customworkoutgenerator.com you agree to the <Link to="/disclaimer-terms-of-service">Disclaimer and Terms of Service</Link>
           </Typography>
         </Grid>
