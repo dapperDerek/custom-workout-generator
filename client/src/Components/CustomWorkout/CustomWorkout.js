@@ -108,8 +108,9 @@ class CustomWorkout extends Component {
                 <Typography variant="title" component="h3">
                   Uh-Oh!
                 </Typography>
-                <Typography component="p">
-                  It looks like we don't have a workout generated for you yet.
+                <br/>
+                <Typography variant="body1" color="textSecondary">
+                  It looks like we haven't generated a workout for you yet.
                 </Typography>
 
                 <Link to={'/'}>

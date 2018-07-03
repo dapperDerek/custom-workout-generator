@@ -1,4 +1,5 @@
 const flatMap = require('lodash/flatMap');
+const filter = require('lodash/filter');
 const findFactors = require('../helpers/findFactors');
 const fitnessGoalsMap = require('../data/fitness-goals-map');
 
@@ -12,5 +13,5 @@ module.exports = function (fitnessGoal) {
     setRepRanges[i] = findFactors(i);
   }
 
-  return flatMap(setRepRanges);
+  return filter(flatMap(setRepRanges), setReps => { return setReps.sets < 7 });
 };

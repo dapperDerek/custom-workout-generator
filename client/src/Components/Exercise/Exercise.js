@@ -11,7 +11,6 @@ import Typography from '@material-ui/core/Typography';
 import DeleteIcon from '@material-ui/icons/Delete';
 import AutorenewIcon from '@material-ui/icons/Autorenew';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 import CardHeader from '@material-ui/core/CardHeader';
 
 
@@ -22,10 +21,14 @@ const styles = theme => ({
 
   },
   exerciseDetails: {
-    padding: 0
+    paddingTop: 0,
   },
-  exerciseName: {
-    fontSize: '.95rem'
+  actions: {
+    display: 'flex',
+  },
+  exerciseHeader: {
+    fontSize: '.95rem',
+    padding: '8px 16px',
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -83,39 +86,39 @@ class Exercise extends React.Component {
       <Card className={classes.exercise} elevation={1}>
         <CardHeader
           title={this.props.name}
-          className={classes.exerciseName}
+          className={classes.exerciseHeader}
+          align="left"
+          action={
+            <div>
+              <IconButton aria-label="Replace exercise"
+                          onClick={this.handleReplaceExercise.bind(null, this.props.exerciseDay, this.props.muscleGroup, this.props.exerciseIndex)}>
+                <AutorenewIcon color="secondary"/>
+              </IconButton>
+              <IconButton aria-label="Remove exercise"
+                          onClick={this.handleRemoveExercise.bind(null, this.props.exerciseDay, this.props.muscleGroup, this.props.exerciseIndex)}>
+                <DeleteIcon color="secondary"/>
+              </IconButton>
+              <IconButton className={classnames(classes.expand, {
+                            [classes.expandOpen]: this.state.expanded,
+                          })}
+                          onClick={this.handleExpandClick}
+                          aria-expanded={this.state.expanded}
+                          aria-label="Show more">
+                <ExpandMoreIcon color="secondary"/>
+              </IconButton>
+            </div>
+          }
         />
+
         <CardContent className={classes.exerciseDetails}>
-          <Typography variant="body2" color="textSecondary">
-            {this.props.reps} reps
-          </Typography>
           <Typography variant="body2" color="textSecondary">
             {this.props.sets} sets
           </Typography>
+          <Typography variant="body2" color="textSecondary">
+            {this.props.reps} reps
+          </Typography>
         </CardContent>
-        <CardActions className={classes.actions} disableActionSpacing>
-          <IconButton aria-label="More exercise options">
-            <MoreVertIcon color="secondary"/>
-          </IconButton>
-          <IconButton aria-label="Get new exercise"
-                      onClick={this.handleReplaceExercise.bind(null, this.props.exerciseDay, this.props.muscleGroup, this.props.exerciseIndex)}>
-            <AutorenewIcon color="secondary"/>
-          </IconButton>
-          <IconButton aria-label="Remove exercise"
-                      onClick={this.handleRemoveExercise.bind(null, this.props.exerciseDay, this.props.muscleGroup, this.props.exerciseIndex)}>
-            <DeleteIcon color="secondary"/>
-          </IconButton>
-          <IconButton
-            className={classnames(classes.expand, {
-              [classes.expandOpen]: this.state.expanded,
-            })}
-            onClick={this.handleExpandClick}
-            aria-expanded={this.state.expanded}
-            aria-label="Show more"
-          >
-            <ExpandMoreIcon color="secondary"/>
-          </IconButton>
-        </CardActions>
+
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent align="left">
             <Typography variant="body1" color="textSecondary">
