@@ -42,7 +42,7 @@ class SplitFrequencyRadioGroup extends React.Component {
             <FormControlLabel value="one day" control={<Radio/>} label="1 day"/>
             <FormControlLabel value="two day" control={<Radio/>} label="2 days"/>
             <FormControlLabel value="three day" control={<Radio/>} label="3 days"/>
-            <FormControlLabel value="four day" control={<Radio/>} label="4 day"/>
+            <FormControlLabel value="four day" control={<Radio/>} label="4 days"/>
             <FormControlLabel value="five day" control={<Radio/>} label="5 days"/>
           </RadioGroup>
         </FormControl>

@@ -12,10 +12,6 @@
     "exerciseCategories": [
       "Olympic",
       "General"
-    ],
-    "restTime": [
-      180,
-      300
     ]
   },
   "endurance": {
@@ -31,10 +27,6 @@
     "exerciseCategories": [
       "Plyometric",
       "General"
-    ],
-    "restTime": [
-      20,
-      60
     ]
   },
   "fatloss": {
@@ -51,10 +43,6 @@
       "Plyometric",
       "Cardio",
       "General"
-    ],
-    "restTime": [
-      60,
-      120
     ]
   },
   "muscle": {
@@ -69,10 +57,6 @@
     ],
     "exerciseCategories": [
       "General"
-    ],
-    "restTime": [
-      60,
-      180
     ]
   }
 }

@@ -4,8 +4,8 @@
       "type": "Total",
       "schedule": {
         "dayOne": {
-          "Pectorals": 2,
-          "Lats": 2,
+          "Pectorals": 1,
+          "Lats": 1,
           "Triceps": 1,
           "Biceps": 1,
           "Quadriceps": 1,
@@ -69,8 +69,8 @@
       "type": "Total",
       "schedule": {
         "dayOne": {
-          "Pectorals": 2,
-          "Lats": 2,
+          "Pectorals": 1,
+          "Lats": 1,
           "Triceps": 1,
           "Biceps": 1,
           "Quadriceps": 1,
@@ -82,8 +82,8 @@
           "Abs": 1
         },
         "dayTwo": {
-          "Pectorals": 2,
-          "Lats": 2,
+          "Pectorals": 1,
+          "Lats": 1,
           "Triceps": 1,
           "Biceps": 1,
           "Quadriceps": 1,
@@ -158,8 +158,8 @@
       "type": "Total",
       "schedule": {
         "dayOne": {
-          "Pectorals": 2,
-          "Lats": 2,
+          "Pectorals": 1,
+          "Lats": 1,
           "Triceps": 1,
           "Biceps": 1,
           "Quadriceps": 1,
@@ -171,8 +171,8 @@
           "Abs": 1
         },
         "dayTwo": {
-          "Pectorals": 2,
-          "Lats": 2,
+          "Pectorals": 1,
+          "Lats": 1,
           "Triceps": 1,
           "Biceps": 1,
           "Quadriceps": 1,
@@ -184,8 +184,8 @@
           "Abs": 1
         },
         "dayThree": {
-          "Pectorals": 2,
-          "Lats": 2,
+          "Pectorals": 1,
+          "Lats": 1,
           "Triceps": 1,
           "Biceps": 1,
           "Quadriceps": 1,

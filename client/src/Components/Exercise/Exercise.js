@@ -4,7 +4,6 @@ import {withStyles} from '@material-ui/core/styles';
 import classnames from 'classnames';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
@@ -16,12 +15,13 @@ import CardHeader from '@material-ui/core/CardHeader';
 
 const styles = theme => ({
   exercise: {
-    marginTop: theme.spacing.unit * 3,
-    textAlign: 'center'
-
+    textAlign: 'center',
+    border: '1px solid #e1e1e1',
+    boxShadow: 'none'
   },
   exerciseDetails: {
     paddingTop: 0,
+    padding: '0 16px'
   },
   actions: {
     display: 'flex',
@@ -35,7 +35,7 @@ const styles = theme => ({
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
-    marginLeft: 'auto',
+    // marginLeft: 'auto',
   },
   expandOpen: {
     transform: 'rotate(180deg)',
@@ -81,9 +81,15 @@ class Exercise extends React.Component {
 
   render() {
     const {classes} = this.props;
+    const restTimes = {
+      'strength': 180,
+      'endurance': 30,
+      'fatloss': 90,
+      'muscle': 90
+    };
 
     return (
-      <Card className={classes.exercise} elevation={1}>
+      <Card className={classes.exercise}>
         <CardHeader
           title={this.props.name}
           className={classes.exerciseHeader}
@@ -110,12 +116,11 @@ class Exercise extends React.Component {
           }
         />
 
-        <CardContent className={classes.exerciseDetails}>
-          <Typography variant="body2" color="textSecondary">
-            {this.props.sets} sets
+        <CardContent className={classes.exerciseDetails} align="left">
+          <Typography variant="body2" color="textSecondary" >
+            {this.props.sets} sets <b>-</b> {this.props.reps} reps <b>-</b> {`${restTimes[this.props.fitnessGoal]}s rest`}
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            {this.props.reps} reps
           </Typography>
         </CardContent>
 
