@@ -14,11 +14,6 @@ import CardHeader from '@material-ui/core/CardHeader';
 
 
 const styles = theme => ({
-  exercise: {
-    textAlign: 'center',
-    border: '1px solid #e1e1e1',
-    boxShadow: 'none'
-  },
   exerciseDetails: {
     paddingTop: 0,
     padding: '0 16px'
@@ -89,7 +84,7 @@ class Exercise extends React.Component {
     };
 
     return (
-      <Card className={classes.exercise}>
+      <Card elevation={1}>
         <CardHeader
           title={this.props.name}
           className={classes.exerciseHeader}

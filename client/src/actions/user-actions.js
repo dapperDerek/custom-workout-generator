@@ -3,6 +3,7 @@ export const UPDATE_ONE_REP_MAX = 'users:updateOneRepMax';
 export const UPDATE_FITNESS_LEVEL = 'users:updateFitnessLevel';
 export const UPDATE_FITNESS_GOAL = 'users:updateFitnessGoat';
 export const UPDATE_SPLIT_FREQUENCY = 'users:updateSplitFrequency';
+export const UPDATE_EQUIPMENT = 'users:updateEquipment';
 
 
 
@@ -47,6 +48,16 @@ export function updateSplitFrequency(splitFrequency) {
     type: UPDATE_SPLIT_FREQUENCY,
     payload: {
       splitFrequency: splitFrequency
+    }
+  }
+}
+
+export function updateEquipment(equipment, bool) {
+  return {
+    type: UPDATE_EQUIPMENT,
+    payload: {
+      equipment: equipment,
+      bool: bool
     }
   }
 }

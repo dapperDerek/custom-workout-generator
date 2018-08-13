@@ -319,6 +319,7 @@
       "schedule": {
         "dayOne": {
           "Pectorals": 3,
+          "Forearms": 1,
           "Abs": 1
         },
         "dayTwo": {
@@ -329,6 +330,7 @@
         "dayThree": {
           "Deltoids": 2,
           "Traps": 1,
+          "Forearms": 1,
           "Abs": 1
         },
         "dayFour": {
@@ -350,23 +352,25 @@
       "schedule": {
         "dayOne": {
           "Pectorals": 3,
-          "Calves": 1
+          "Calves": 1,
+          "Abs": 1
         },
         "dayTwo": {
           "Lats": 3,
           "Lower Back": 1,
-          "Abs": 1
+          "Forearms": 1
         },
         "dayThree": {
           "Quadriceps": 2,
           "Glutes": 1,
           "Traps": 1,
-          "Abs": 1
+          "Calves": 1
         },
         "dayFour": {
           "Hamstrings": 2,
           "Glutes": 1,
-          "Deltoids": 2
+          "Deltoids": 2,
+          "Abs": 1
         },
         "dayFive": {
           "Biceps": 2,

@@ -3,12 +3,13 @@ import './InfoForm.css'
 import FitnessGoalRadioGroup from '../FitnessGoalRadioGroup/FitnessGoalRadioGroup'
 import FitnessLevelRadioGroup from '../FitnessLevelRadioGroup/FitnessLevelRadioGroup'
 import SplitFrequencyRadioGroup from '../SplitFrequencyRadioGroup/SplitFrequencyRadioGroup'
+import EquipmentCheckboxGroup from '../EquipmentCheckboxGroup/EquipmentCheckboxGroup'
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Redirect from 'react-router-dom/Redirect'
 import {connect} from "react-redux";
-import {updateFitnessGoal, updateFitnessLevel, updateSplitFrequency, updateWeight} from "../../actions/user-actions";
+import {updateFitnessGoal, updateFitnessLevel, updateSplitFrequency, updateWeight, updateEquipment} from "../../actions/user-actions";
 import {updateWorkout} from "../../actions/workout-actions";
 import {bindActionCreators} from "redux";
 
@@ -35,6 +36,7 @@ class InfoForm extends Component {
     this.onUpdateFitnessLevel = this.onUpdateFitnessLevel.bind(this);
     this.onUpdateFitnessGoal = this.onUpdateFitnessGoal.bind(this);
     this.onUpdateSplitFrequency = this.onUpdateSplitFrequency.bind(this);
+    this.onUpdateEquipment = this.onUpdateEquipment.bind(this);
     this.onUpdateWorkout = this.onUpdateWorkout.bind(this);
   }
 
@@ -59,6 +61,10 @@ class InfoForm extends Component {
     this.props.onUpdateWorkout(workout);
   }
 
+  onUpdateEquipment(equipment, bool) {
+    this.props.onUpdateEquipment(equipment, bool);
+  }
+
   handleSubmit = (event) => {
     event.preventDefault();
     fetch('/api/build-custom-workout', {
@@ -77,7 +83,6 @@ class InfoForm extends Component {
       })
       .then(data => {
         this.setState(() => ({
-          workout: data,
           toCustomWorkout: true
         }));
         this.onUpdateWorkout(data);
@@ -100,6 +105,8 @@ class InfoForm extends Component {
                                onUpdateFitnessGoal={this.onUpdateFitnessGoal}/>
         <SplitFrequencyRadioGroup splitFrequency={this.props.user.splitFrequency}
                                   onUpdateSplitFrequency={this.onUpdateSplitFrequency}/>
+        <EquipmentCheckboxGroup equipment={this.props.user.equipment}
+                                onUpdateEquipment={this.onUpdateEquipment}/>
 
         <Button type="submit" value="Submit" variant="contained" color="primary" className={classes.button}>
           Get your custom workout
@@ -121,7 +128,8 @@ const mapDispatchToProps = (dispatch, props) => {
     onUpdateFitnessLevel: updateFitnessLevel,
     onUpdateFitnessGoal: updateFitnessGoal,
     onUpdateSplitFrequency: updateSplitFrequency,
-    onUpdateWorkout: updateWorkout
+    onUpdateWorkout: updateWorkout,
+    onUpdateEquipment: updateEquipment
   }, dispatch)
 };
 

@@ -15,7 +15,7 @@ export default function workoutReducer(state = {}, {type, payload}) {
         [payload.exerciseDay]: {
           ...state[payload.exerciseDay],
           [payload.muscleGroup]: [...state[payload.exerciseDay][payload.muscleGroup]].filter((x, index) => {
-            return index !== parseInt(payload.exerciseIndex)
+            return index !== parseInt(payload.exerciseIndex, 10)
           })
         }
       };

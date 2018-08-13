@@ -33,6 +33,11 @@ const styles = theme => ({
   },
   muscleGroup: {
     marginTop: 24
+  },
+  separator: {
+    border: 0,
+    height: 1,
+    backgroundImage: 'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(225, 225, 225, 1), rgba(0, 0, 0, 0))'
   }
 });
 
@@ -74,7 +79,9 @@ class CustomWorkout extends Component {
             {Object.keys(workout[key]).map((muscleGroup) => {
               return <div>
                 <Typography variant="subheading" color="textSecondary" className={classes.muscleGroup}>
+                  <hr className={classes.separator}/>
                   {muscleGroup}
+                  <hr className={classes.separator}/>
                 </Typography>
                 {Object.keys(workout[key][muscleGroup]).map((index) => {
                   let exercise = workout[key][muscleGroup][index];
@@ -112,13 +119,13 @@ class CustomWorkout extends Component {
         ) : (
           <Grid container spacing={24}>
             <Grid container justify="center" spacing={24}>
-              <Paper className={classes.paper} elevation={2}>
+              <Paper className={classes.paper} elevation={1}>
                 <Typography variant="title" component="h3">
                   Uh-Oh!
                 </Typography>
                 <br/>
                 <Typography variant="body1" color="textSecondary">
-                  It looks like we haven't generated a workout for you yet.
+                  It looks like we haven't generated a workout for you yet
                 </Typography>
 
                 <Link to={'/'}>
